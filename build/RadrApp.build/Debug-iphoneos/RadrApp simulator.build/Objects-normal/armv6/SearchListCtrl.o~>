@@ -1,0 +1,5 @@
+/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchListCtrl.m: In function '-[SearchListCtrl avgBtnPressed:]':
+/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchListCtrl.m:507: warning: no '-initWithMode:' method found
+/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchListCtrl.m:507: warning: (Messages without a matching method signature
+/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchListCtrl.m:507: warning: will be assumed to return 'id' and accept
+/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchListCtrl.m:507: warning: '...' as arguments.)

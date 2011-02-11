@@ -1,0 +1,922 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		880C2DD412F0108C0050194F /* aboutMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880C2DC512F0108C0050194F /* aboutMain.xib */; };
+		880C2DD512F0108C0050194F /* buyProMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880C2DC612F0108C0050194F /* buyProMain.xib */; };
+		880C2DD612F0108C0050194F /* changeCountryMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880C2DC812F0108C0050194F /* changeCountryMain.xib */; };
+		880C2DD712F0108C0050194F /* changeLanguageMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880C2DCA12F0108C0050194F /* changeLanguageMain.xib */; };
+		880C2DD812F0108C0050194F /* recentMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880C2DCC12F0108C0050194F /* recentMain.xib */; };
+		880C2DD912F0108C0050194F /* shortedListMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880C2DCE12F0108C0050194F /* shortedListMain.xib */; };
+		880C2DDA12F0108C0050194F /* searchMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880C2DD012F0108C0050194F /* searchMain.xib */; };
+		880C2DDB12F0108C0050194F /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880C2DD112F0108C0050194F /* MainWindow.xib */; };
+		880C2DDC12F0108C0050194F /* RadrApp-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 880C2DD212F0108C0050194F /* RadrApp-Info.plist */; };
+		880C2DDD12F0108C0050194F /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 880C2DD312F0108C0050194F /* config.plist */; };
+		880C2E3712F010B30050194F /* NSObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2DE112F010B20050194F /* NSObject+JSON.m */; };
+		880C2E3812F010B30050194F /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2DE312F010B20050194F /* SBJsonParser.m */; };
+		880C2E3912F010B30050194F /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2DE512F010B20050194F /* SBJsonStreamParser.m */; };
+		880C2E3A12F010B30050194F /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2DE712F010B20050194F /* SBJsonStreamParserAdapter.m */; };
+		880C2E3B12F010B30050194F /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2DE912F010B20050194F /* SBJsonStreamParserState.m */; };
+		880C2E3C12F010B30050194F /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2DEB12F010B20050194F /* SBJsonStreamWriter.m */; };
+		880C2E3D12F010B30050194F /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2DED12F010B20050194F /* SBJsonStreamWriterState.m */; };
+		880C2E3E12F010B30050194F /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2DEF12F010B20050194F /* SBJsonTokeniser.m */; };
+		880C2E3F12F010B30050194F /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2DF112F010B20050194F /* SBJsonWriter.m */; };
+		880C2E4012F010B30050194F /* AboutCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2DF412F010B20050194F /* AboutCtrl.m */; };
+		880C2E4112F010B30050194F /* BuyCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2DF612F010B20050194F /* BuyCtrl.m */; };
+		880C2E4212F010B30050194F /* ChangeCountryCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2DF812F010B20050194F /* ChangeCountryCtrl.m */; };
+		880C2E4312F010B30050194F /* ChangeLanguageCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2DFA12F010B20050194F /* ChangeLanguageCtrl.m */; };
+		880C2E4412F010B30050194F /* RecentCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2DFC12F010B20050194F /* RecentCtrl.m */; };
+		880C2E4512F010B30050194F /* SearchedLocationAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2DFE12F010B20050194F /* SearchedLocationAnnotation.m */; };
+		880C2E4612F010B30050194F /* SearchListCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E0012F010B20050194F /* SearchListCtrl.m */; };
+		880C2E4712F010B30050194F /* SearchListCtrlCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E0212F010B20050194F /* SearchListCtrlCell.m */; };
+		880C2E4812F010B30050194F /* ShortedListCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E0412F010B20050194F /* ShortedListCtrl.m */; };
+		880C2E4912F010B30050194F /* UITabBarCtrlRadr.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E0612F010B20050194F /* UITabBarCtrlRadr.m */; };
+		880C2E5412F010B30050194F /* Attribuition.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E1D12F010B20050194F /* Attribuition.m */; };
+		880C2E5512F010B30050194F /* Labels.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E1F12F010B20050194F /* Labels.m */; };
+		880C2E5612F010B30050194F /* Listing.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E2112F010B20050194F /* Listing.m */; };
+		880C2E5712F010B30050194F /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E2312F010B20050194F /* Location.m */; };
+		880C2E5812F010B30050194F /* MetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E2512F010B20050194F /* MetaData.m */; };
+		880C2E5912F010B30050194F /* ModelParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E2712F010B20050194F /* ModelParser.m */; };
+		880C2E5A12F010B30050194F /* RadrModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E2912F010B30050194F /* RadrModel.m */; };
+		880C2E5B12F010B30050194F /* RadrReqest.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E2B12F010B30050194F /* RadrReqest.m */; };
+		880C2E5C12F010B30050194F /* RequestHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E2D12F010B30050194F /* RequestHeader.m */; };
+		880C2E5D12F010B30050194F /* RequestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E2F12F010B30050194F /* RequestObject.m */; };
+		880C2E5E12F010B30050194F /* ResponseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E3112F010B30050194F /* ResponseObject.m */; };
+		880C2E5F12F010B30050194F /* RadrAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E3312F010B30050194F /* RadrAppAppDelegate.m */; };
+		880C2E6012F010B30050194F /* SearchCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E3512F010B30050194F /* SearchCtrl.m */; };
+		880C2F5112F010D70050194F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880C2F5012F010D70050194F /* CoreLocation.framework */; };
+		880C2F5312F010E10050194F /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880C2F5212F010E10050194F /* MapKit.framework */; };
+		888A8B0112F28C7F00B608B2 /* aboutMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880C2DC512F0108C0050194F /* aboutMain.xib */; };
+		888A8B0212F28C7F00B608B2 /* buyProMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880C2DC612F0108C0050194F /* buyProMain.xib */; };
+		888A8B0312F28C7F00B608B2 /* changeCountryMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880C2DC812F0108C0050194F /* changeCountryMain.xib */; };
+		888A8B0412F28C7F00B608B2 /* changeLanguageMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880C2DCA12F0108C0050194F /* changeLanguageMain.xib */; };
+		888A8B0512F28C7F00B608B2 /* recentMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880C2DCC12F0108C0050194F /* recentMain.xib */; };
+		888A8B0612F28C7F00B608B2 /* shortedListMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880C2DCE12F0108C0050194F /* shortedListMain.xib */; };
+		888A8B0712F28C7F00B608B2 /* searchMain.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880C2DD012F0108C0050194F /* searchMain.xib */; };
+		888A8B0812F28C7F00B608B2 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 880C2DD112F0108C0050194F /* MainWindow.xib */; };
+		888A8B0912F28C7F00B608B2 /* RadrApp-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 880C2DD212F0108C0050194F /* RadrApp-Info.plist */; };
+		888A8B0A12F28C7F00B608B2 /* config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 880C2DD312F0108C0050194F /* config.plist */; };
+		888A8B0B12F28C7F00B608B2 /* FloatWigit.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8890D83712F169FF00B97EE9 /* FloatWigit.xib */; };
+		888A8B0D12F28C7F00B608B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		888A8B0E12F28C7F00B608B2 /* NSObject+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2DE112F010B20050194F /* NSObject+JSON.m */; };
+		888A8B0F12F28C7F00B608B2 /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2DE312F010B20050194F /* SBJsonParser.m */; };
+		888A8B1012F28C7F00B608B2 /* SBJsonStreamParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2DE512F010B20050194F /* SBJsonStreamParser.m */; };
+		888A8B1112F28C7F00B608B2 /* SBJsonStreamParserAdapter.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2DE712F010B20050194F /* SBJsonStreamParserAdapter.m */; };
+		888A8B1212F28C7F00B608B2 /* SBJsonStreamParserState.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2DE912F010B20050194F /* SBJsonStreamParserState.m */; };
+		888A8B1312F28C7F00B608B2 /* SBJsonStreamWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2DEB12F010B20050194F /* SBJsonStreamWriter.m */; };
+		888A8B1412F28C7F00B608B2 /* SBJsonStreamWriterState.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2DED12F010B20050194F /* SBJsonStreamWriterState.m */; };
+		888A8B1512F28C7F00B608B2 /* SBJsonTokeniser.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2DEF12F010B20050194F /* SBJsonTokeniser.m */; };
+		888A8B1612F28C7F00B608B2 /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2DF112F010B20050194F /* SBJsonWriter.m */; };
+		888A8B1712F28C7F00B608B2 /* AboutCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2DF412F010B20050194F /* AboutCtrl.m */; };
+		888A8B1812F28C7F00B608B2 /* BuyCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2DF612F010B20050194F /* BuyCtrl.m */; };
+		888A8B1912F28C7F00B608B2 /* ChangeCountryCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2DF812F010B20050194F /* ChangeCountryCtrl.m */; };
+		888A8B1A12F28C7F00B608B2 /* ChangeLanguageCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2DFA12F010B20050194F /* ChangeLanguageCtrl.m */; };
+		888A8B1B12F28C7F00B608B2 /* RecentCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2DFC12F010B20050194F /* RecentCtrl.m */; };
+		888A8B1C12F28C7F00B608B2 /* SearchedLocationAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2DFE12F010B20050194F /* SearchedLocationAnnotation.m */; };
+		888A8B1D12F28C7F00B608B2 /* SearchListCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E0012F010B20050194F /* SearchListCtrl.m */; };
+		888A8B1E12F28C7F00B608B2 /* SearchListCtrlCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E0212F010B20050194F /* SearchListCtrlCell.m */; };
+		888A8B1F12F28C7F00B608B2 /* ShortedListCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E0412F010B20050194F /* ShortedListCtrl.m */; };
+		888A8B2012F28C7F00B608B2 /* UITabBarCtrlRadr.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E0612F010B20050194F /* UITabBarCtrlRadr.m */; };
+		888A8B2112F28C7F00B608B2 /* Attribuition.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E1D12F010B20050194F /* Attribuition.m */; };
+		888A8B2212F28C7F00B608B2 /* Labels.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E1F12F010B20050194F /* Labels.m */; };
+		888A8B2312F28C7F00B608B2 /* Listing.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E2112F010B20050194F /* Listing.m */; };
+		888A8B2412F28C7F00B608B2 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E2312F010B20050194F /* Location.m */; };
+		888A8B2512F28C7F00B608B2 /* MetaData.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E2512F010B20050194F /* MetaData.m */; };
+		888A8B2612F28C7F00B608B2 /* ModelParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E2712F010B20050194F /* ModelParser.m */; };
+		888A8B2712F28C7F00B608B2 /* RadrModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E2912F010B30050194F /* RadrModel.m */; };
+		888A8B2812F28C7F00B608B2 /* RadrReqest.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E2B12F010B30050194F /* RadrReqest.m */; };
+		888A8B2912F28C7F00B608B2 /* RequestHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E2D12F010B30050194F /* RequestHeader.m */; };
+		888A8B2A12F28C7F00B608B2 /* RequestObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E2F12F010B30050194F /* RequestObject.m */; };
+		888A8B2B12F28C7F00B608B2 /* ResponseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E3112F010B30050194F /* ResponseObject.m */; };
+		888A8B2C12F28C7F00B608B2 /* RadrAppAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E3312F010B30050194F /* RadrAppAppDelegate.m */; };
+		888A8B2D12F28C7F00B608B2 /* SearchCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 880C2E3512F010B30050194F /* SearchCtrl.m */; };
+		888A8B3012F28C7F00B608B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		888A8B3112F28C7F00B608B2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		888A8B3212F28C7F00B608B2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		888A8B3312F28C7F00B608B2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880C2F5012F010D70050194F /* CoreLocation.framework */; };
+		888A8B3412F28C7F00B608B2 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 880C2F5212F010E10050194F /* MapKit.framework */; };
+		888A8B3B12F28CB900B608B2 /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 888A8AFA12F28C5000B608B2 /* libCorePlot-CocoaTouch.a */; };
+		888A8BAD12F296F300B608B2 /* SearchChartCtrl.m in Sources */ = {isa = PBXBuildFile; fileRef = 888A8BAB12F296F300B608B2 /* SearchChartCtrl.m */; };
+		888A8BAE12F296F300B608B2 /* SearchChartCtrl.xib in Resources */ = {isa = PBXBuildFile; fileRef = 888A8BAC12F296F300B608B2 /* SearchChartCtrl.xib */; };
+		8890D83812F169FF00B97EE9 /* FloatWigit.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8890D83712F169FF00B97EE9 /* FloatWigit.xib */; };
+		889A76AD12F56FDA008756B5 /* libCorePlot-CocoaTouch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 888A8AFC12F28C5B00B608B2 /* libCorePlot-CocoaTouch.a */; };
+		889A771F12F571EA008756B5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889A771E12F571EA008756B5 /* QuartzCore.framework */; };
+		889A772212F571FC008756B5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889A771E12F571EA008756B5 /* QuartzCore.framework */; };
+		88B2E59B1303B6B3009B9E3B /* ChartLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B2E59A1303B6B3009B9E3B /* ChartLayer.m */; };
+		88B2E59C1303B6B3009B9E3B /* ChartLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 88B2E59A1303B6B3009B9E3B /* ChartLayer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		888A8C8C12F2A4FD00B608B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 888A8C8312F2A4FD00B608B2 /* CorePlot-CocoaTouch.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BC9B83470FB8A0A40035D8DA;
+			remoteInfo = "CorePlot-CocoaTouch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D6058910D05DD3D006BFB54 /* RadrApp simulator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RadrApp simulator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* RadrApp_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadrApp_Prefix.pch; sourceTree = "<group>"; };
+		880C2DC512F0108C0050194F /* aboutMain.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = aboutMain.xib; sourceTree = "<group>"; };
+		880C2DC612F0108C0050194F /* buyProMain.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = buyProMain.xib; sourceTree = "<group>"; };
+		880C2DC812F0108C0050194F /* changeCountryMain.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = changeCountryMain.xib; sourceTree = "<group>"; };
+		880C2DCA12F0108C0050194F /* changeLanguageMain.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = changeLanguageMain.xib; sourceTree = "<group>"; };
+		880C2DCC12F0108C0050194F /* recentMain.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = recentMain.xib; sourceTree = "<group>"; };
+		880C2DCE12F0108C0050194F /* shortedListMain.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = shortedListMain.xib; sourceTree = "<group>"; };
+		880C2DD012F0108C0050194F /* searchMain.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = searchMain.xib; sourceTree = "<group>"; };
+		880C2DD112F0108C0050194F /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		880C2DD212F0108C0050194F /* RadrApp-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "RadrApp-Info.plist"; sourceTree = "<group>"; };
+		880C2DD312F0108C0050194F /* config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = config.plist; sourceTree = "<group>"; };
+		880C2DDF12F010B20050194F /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		880C2DE012F010B20050194F /* NSObject+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+JSON.h"; sourceTree = "<group>"; };
+		880C2DE112F010B20050194F /* NSObject+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+JSON.m"; sourceTree = "<group>"; };
+		880C2DE212F010B20050194F /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		880C2DE312F010B20050194F /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		880C2DE412F010B20050194F /* SBJsonStreamParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParser.h; sourceTree = "<group>"; };
+		880C2DE512F010B20050194F /* SBJsonStreamParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParser.m; sourceTree = "<group>"; };
+		880C2DE612F010B20050194F /* SBJsonStreamParserAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserAdapter.h; sourceTree = "<group>"; };
+		880C2DE712F010B20050194F /* SBJsonStreamParserAdapter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserAdapter.m; sourceTree = "<group>"; };
+		880C2DE812F010B20050194F /* SBJsonStreamParserState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamParserState.h; sourceTree = "<group>"; };
+		880C2DE912F010B20050194F /* SBJsonStreamParserState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamParserState.m; sourceTree = "<group>"; };
+		880C2DEA12F010B20050194F /* SBJsonStreamWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriter.h; sourceTree = "<group>"; };
+		880C2DEB12F010B20050194F /* SBJsonStreamWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriter.m; sourceTree = "<group>"; };
+		880C2DEC12F010B20050194F /* SBJsonStreamWriterState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonStreamWriterState.h; sourceTree = "<group>"; };
+		880C2DED12F010B20050194F /* SBJsonStreamWriterState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonStreamWriterState.m; sourceTree = "<group>"; };
+		880C2DEE12F010B20050194F /* SBJsonTokeniser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonTokeniser.h; sourceTree = "<group>"; };
+		880C2DEF12F010B20050194F /* SBJsonTokeniser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonTokeniser.m; sourceTree = "<group>"; };
+		880C2DF012F010B20050194F /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		880C2DF112F010B20050194F /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		880C2DF312F010B20050194F /* AboutCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutCtrl.h; sourceTree = "<group>"; };
+		880C2DF412F010B20050194F /* AboutCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutCtrl.m; sourceTree = "<group>"; };
+		880C2DF512F010B20050194F /* BuyCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyCtrl.h; sourceTree = "<group>"; };
+		880C2DF612F010B20050194F /* BuyCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyCtrl.m; sourceTree = "<group>"; };
+		880C2DF712F010B20050194F /* ChangeCountryCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeCountryCtrl.h; sourceTree = "<group>"; };
+		880C2DF812F010B20050194F /* ChangeCountryCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeCountryCtrl.m; sourceTree = "<group>"; };
+		880C2DF912F010B20050194F /* ChangeLanguageCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeLanguageCtrl.h; sourceTree = "<group>"; };
+		880C2DFA12F010B20050194F /* ChangeLanguageCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeLanguageCtrl.m; sourceTree = "<group>"; };
+		880C2DFB12F010B20050194F /* RecentCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecentCtrl.h; sourceTree = "<group>"; };
+		880C2DFC12F010B20050194F /* RecentCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecentCtrl.m; sourceTree = "<group>"; };
+		880C2DFD12F010B20050194F /* SearchedLocationAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchedLocationAnnotation.h; sourceTree = "<group>"; };
+		880C2DFE12F010B20050194F /* SearchedLocationAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchedLocationAnnotation.m; sourceTree = "<group>"; };
+		880C2DFF12F010B20050194F /* SearchListCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchListCtrl.h; sourceTree = "<group>"; };
+		880C2E0012F010B20050194F /* SearchListCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchListCtrl.m; sourceTree = "<group>"; };
+		880C2E0112F010B20050194F /* SearchListCtrlCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchListCtrlCell.h; sourceTree = "<group>"; };
+		880C2E0212F010B20050194F /* SearchListCtrlCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchListCtrlCell.m; sourceTree = "<group>"; };
+		880C2E0312F010B20050194F /* ShortedListCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShortedListCtrl.h; sourceTree = "<group>"; };
+		880C2E0412F010B20050194F /* ShortedListCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShortedListCtrl.m; sourceTree = "<group>"; };
+		880C2E0512F010B20050194F /* UITabBarCtrlRadr.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UITabBarCtrlRadr.h; path = Ctrls/UITabBarCtrlRadr.h; sourceTree = "<group>"; };
+		880C2E0612F010B20050194F /* UITabBarCtrlRadr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UITabBarCtrlRadr.m; path = Ctrls/UITabBarCtrlRadr.m; sourceTree = "<group>"; };
+		880C2E1C12F010B20050194F /* Attribuition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Attribuition.h; sourceTree = "<group>"; };
+		880C2E1D12F010B20050194F /* Attribuition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Attribuition.m; sourceTree = "<group>"; };
+		880C2E1E12F010B20050194F /* Labels.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Labels.h; sourceTree = "<group>"; };
+		880C2E1F12F010B20050194F /* Labels.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Labels.m; sourceTree = "<group>"; };
+		880C2E2012F010B20050194F /* Listing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Listing.h; sourceTree = "<group>"; };
+		880C2E2112F010B20050194F /* Listing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Listing.m; sourceTree = "<group>"; };
+		880C2E2212F010B20050194F /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		880C2E2312F010B20050194F /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
+		880C2E2412F010B20050194F /* MetaData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MetaData.h; sourceTree = "<group>"; };
+		880C2E2512F010B20050194F /* MetaData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MetaData.m; sourceTree = "<group>"; };
+		880C2E2612F010B20050194F /* ModelParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModelParser.h; sourceTree = "<group>"; };
+		880C2E2712F010B20050194F /* ModelParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModelParser.m; sourceTree = "<group>"; };
+		880C2E2812F010B30050194F /* RadrModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadrModel.h; sourceTree = "<group>"; };
+		880C2E2912F010B30050194F /* RadrModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadrModel.m; sourceTree = "<group>"; };
+		880C2E2A12F010B30050194F /* RadrReqest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadrReqest.h; sourceTree = "<group>"; };
+		880C2E2B12F010B30050194F /* RadrReqest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadrReqest.m; sourceTree = "<group>"; };
+		880C2E2C12F010B30050194F /* RequestHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestHeader.h; sourceTree = "<group>"; };
+		880C2E2D12F010B30050194F /* RequestHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestHeader.m; sourceTree = "<group>"; };
+		880C2E2E12F010B30050194F /* RequestObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RequestObject.h; sourceTree = "<group>"; };
+		880C2E2F12F010B30050194F /* RequestObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RequestObject.m; sourceTree = "<group>"; };
+		880C2E3012F010B30050194F /* ResponseObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResponseObject.h; sourceTree = "<group>"; };
+		880C2E3112F010B30050194F /* ResponseObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResponseObject.m; sourceTree = "<group>"; };
+		880C2E3212F010B30050194F /* RadrAppAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RadrAppAppDelegate.h; sourceTree = "<group>"; };
+		880C2E3312F010B30050194F /* RadrAppAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RadrAppAppDelegate.m; sourceTree = "<group>"; };
+		880C2E3412F010B30050194F /* SearchCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SearchCtrl.h; path = ../SearchCtrl.h; sourceTree = "<group>"; };
+		880C2E3512F010B30050194F /* SearchCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SearchCtrl.m; path = ../SearchCtrl.m; sourceTree = "<group>"; };
+		880C2E6112F010C00050194F /* Config.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		880C2F5012F010D70050194F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		880C2F5212F010E10050194F /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		888A8AFA12F28C5000B608B2 /* libCorePlot-CocoaTouch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libCorePlot-CocoaTouch.a"; path = "../core-plot/build/Debug-iphoneos/libCorePlot-CocoaTouch.a"; sourceTree = SOURCE_ROOT; };
+		888A8AFC12F28C5B00B608B2 /* libCorePlot-CocoaTouch.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libCorePlot-CocoaTouch.a"; path = "../core-plot/build/Debug-iphonesimulator/libCorePlot-CocoaTouch.a"; sourceTree = SOURCE_ROOT; };
+		888A8B3812F28C7F00B608B2 /* RadrApp Device.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RadrApp Device.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		888A8B3A12F28C7F00B608B2 /* RadrApp-Info copy.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RadrApp-Info copy.plist"; sourceTree = "<group>"; };
+		888A8BAA12F296F300B608B2 /* SearchChartCtrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchChartCtrl.h; sourceTree = "<group>"; };
+		888A8BAB12F296F300B608B2 /* SearchChartCtrl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchChartCtrl.m; sourceTree = "<group>"; };
+		888A8BAC12F296F300B608B2 /* SearchChartCtrl.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = SearchChartCtrl.xib; path = Classes/Ctrls/SearchChartCtrl.xib; sourceTree = "<group>"; };
+		888A8C8312F2A4FD00B608B2 /* CorePlot-CocoaTouch.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "CorePlot-CocoaTouch.xcodeproj"; path = "../core-plot/framework/CorePlot-CocoaTouch.xcodeproj"; sourceTree = SOURCE_ROOT; };
+		8890D83712F169FF00B97EE9 /* FloatWigit.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FloatWigit.xib; sourceTree = "<group>"; };
+		889A771E12F571EA008756B5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		88B2E5991303B6B3009B9E3B /* ChartLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChartLayer.h; sourceTree = "<group>"; };
+		88B2E59A1303B6B3009B9E3B /* ChartLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChartLayer.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889A76AD12F56FDA008756B5 /* libCorePlot-CocoaTouch.a in Frameworks */,
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				880C2F5112F010D70050194F /* CoreLocation.framework in Frameworks */,
+				880C2F5312F010E10050194F /* MapKit.framework in Frameworks */,
+				889A771F12F571EA008756B5 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888A8B2E12F28C7F00B608B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				889A772212F571FC008756B5 /* QuartzCore.framework in Frameworks */,
+				888A8B3B12F28CB900B608B2 /* libCorePlot-CocoaTouch.a in Frameworks */,
+				888A8B3012F28C7F00B608B2 /* Foundation.framework in Frameworks */,
+				888A8B3112F28C7F00B608B2 /* UIKit.framework in Frameworks */,
+				888A8B3212F28C7F00B608B2 /* CoreGraphics.framework in Frameworks */,
+				888A8B3312F28C7F00B608B2 /* CoreLocation.framework in Frameworks */,
+				888A8B3412F28C7F00B608B2 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				880C2DDE12F010B20050194F /* JSON */,
+				880C2DF212F010B20050194F /* Ctrls */,
+				880C2E1B12F010B20050194F /* Model */,
+				880C2E3212F010B30050194F /* RadrAppAppDelegate.h */,
+				880C2E3312F010B30050194F /* RadrAppAppDelegate.m */,
+				880C2E0512F010B20050194F /* UITabBarCtrlRadr.h */,
+				880C2E0612F010B20050194F /* UITabBarCtrlRadr.m */,
+				880C2E3612F010B30050194F /* Views */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* RadrApp simulator.app */,
+				888A8B3812F28C7F00B608B2 /* RadrApp Device.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				888A8C8312F2A4FD00B608B2 /* CorePlot-CocoaTouch.xcodeproj */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				880C2E6112F010C00050194F /* Config.h */,
+				32CA4F630368D1EE00C91783 /* RadrApp_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				880C2DD112F0108C0050194F /* MainWindow.xib */,
+				8890D83712F169FF00B97EE9 /* FloatWigit.xib */,
+				880C2DD212F0108C0050194F /* RadrApp-Info.plist */,
+				880C2DD312F0108C0050194F /* config.plist */,
+				880C2DC312F0108C0050194F /* mainXib */,
+				888A8B3A12F28C7F00B608B2 /* RadrApp-Info copy.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				888A8AF512F28C2600B608B2 /* core-plot device */,
+				888A8AD512F28C1B00B608B2 /* core-plot simulator */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				880C2F5012F010D70050194F /* CoreLocation.framework */,
+				880C2F5212F010E10050194F /* MapKit.framework */,
+				889A771E12F571EA008756B5 /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		880C2DC312F0108C0050194F /* mainXib */ = {
+			isa = PBXGroup;
+			children = (
+				880C2DCF12F0108C0050194F /* search */,
+				880C2DCD12F0108C0050194F /* shortedList */,
+				880C2DCB12F0108C0050194F /* recent */,
+				880C2DC912F0108C0050194F /* chang language */,
+				880C2DC712F0108C0050194F /* change country */,
+				880C2DC412F0108C0050194F /* miscelleneous */,
+			);
+			name = mainXib;
+			sourceTree = "<group>";
+		};
+		880C2DC412F0108C0050194F /* miscelleneous */ = {
+			isa = PBXGroup;
+			children = (
+				880C2DC512F0108C0050194F /* aboutMain.xib */,
+				880C2DC612F0108C0050194F /* buyProMain.xib */,
+			);
+			name = miscelleneous;
+			sourceTree = "<group>";
+		};
+		880C2DC712F0108C0050194F /* change country */ = {
+			isa = PBXGroup;
+			children = (
+				880C2DC812F0108C0050194F /* changeCountryMain.xib */,
+			);
+			name = "change country";
+			sourceTree = "<group>";
+		};
+		880C2DC912F0108C0050194F /* chang language */ = {
+			isa = PBXGroup;
+			children = (
+				880C2DCA12F0108C0050194F /* changeLanguageMain.xib */,
+			);
+			name = "chang language";
+			sourceTree = "<group>";
+		};
+		880C2DCB12F0108C0050194F /* recent */ = {
+			isa = PBXGroup;
+			children = (
+				880C2DCC12F0108C0050194F /* recentMain.xib */,
+			);
+			name = recent;
+			sourceTree = "<group>";
+		};
+		880C2DCD12F0108C0050194F /* shortedList */ = {
+			isa = PBXGroup;
+			children = (
+				880C2DCE12F0108C0050194F /* shortedListMain.xib */,
+			);
+			name = shortedList;
+			sourceTree = "<group>";
+		};
+		880C2DCF12F0108C0050194F /* search */ = {
+			isa = PBXGroup;
+			children = (
+				888A8BAC12F296F300B608B2 /* SearchChartCtrl.xib */,
+				880C2DD012F0108C0050194F /* searchMain.xib */,
+			);
+			name = search;
+			sourceTree = "<group>";
+		};
+		880C2DDE12F010B20050194F /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				880C2DDF12F010B20050194F /* JSON.h */,
+				880C2DE012F010B20050194F /* NSObject+JSON.h */,
+				880C2DE112F010B20050194F /* NSObject+JSON.m */,
+				880C2DE212F010B20050194F /* SBJsonParser.h */,
+				880C2DE312F010B20050194F /* SBJsonParser.m */,
+				880C2DE412F010B20050194F /* SBJsonStreamParser.h */,
+				880C2DE512F010B20050194F /* SBJsonStreamParser.m */,
+				880C2DE612F010B20050194F /* SBJsonStreamParserAdapter.h */,
+				880C2DE712F010B20050194F /* SBJsonStreamParserAdapter.m */,
+				880C2DE812F010B20050194F /* SBJsonStreamParserState.h */,
+				880C2DE912F010B20050194F /* SBJsonStreamParserState.m */,
+				880C2DEA12F010B20050194F /* SBJsonStreamWriter.h */,
+				880C2DEB12F010B20050194F /* SBJsonStreamWriter.m */,
+				880C2DEC12F010B20050194F /* SBJsonStreamWriterState.h */,
+				880C2DED12F010B20050194F /* SBJsonStreamWriterState.m */,
+				880C2DEE12F010B20050194F /* SBJsonTokeniser.h */,
+				880C2DEF12F010B20050194F /* SBJsonTokeniser.m */,
+				880C2DF012F010B20050194F /* SBJsonWriter.h */,
+				880C2DF112F010B20050194F /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		880C2DF212F010B20050194F /* Ctrls */ = {
+			isa = PBXGroup;
+			children = (
+				880C2F8012F012000050194F /* language */,
+				880C2F7F12F011FC0050194F /* country */,
+				880C2F7E12F011E70050194F /* buy */,
+				880C2F7D12F011D80050194F /* recent */,
+				880C2F7C12F011C60050194F /* shorted list */,
+				880C2F7B12F011C10050194F /* search */,
+				880C2F7A12F011BA0050194F /* about */,
+			);
+			path = Ctrls;
+			sourceTree = "<group>";
+		};
+		880C2E1B12F010B20050194F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				880C2E1C12F010B20050194F /* Attribuition.h */,
+				880C2E1D12F010B20050194F /* Attribuition.m */,
+				880C2E1E12F010B20050194F /* Labels.h */,
+				880C2E1F12F010B20050194F /* Labels.m */,
+				880C2E2012F010B20050194F /* Listing.h */,
+				880C2E2112F010B20050194F /* Listing.m */,
+				880C2E2212F010B20050194F /* Location.h */,
+				880C2E2312F010B20050194F /* Location.m */,
+				880C2E2412F010B20050194F /* MetaData.h */,
+				880C2E2512F010B20050194F /* MetaData.m */,
+				880C2E2612F010B20050194F /* ModelParser.h */,
+				880C2E2712F010B20050194F /* ModelParser.m */,
+				880C2E2812F010B30050194F /* RadrModel.h */,
+				880C2E2912F010B30050194F /* RadrModel.m */,
+				880C2E2A12F010B30050194F /* RadrReqest.h */,
+				880C2E2B12F010B30050194F /* RadrReqest.m */,
+				880C2E2C12F010B30050194F /* RequestHeader.h */,
+				880C2E2D12F010B30050194F /* RequestHeader.m */,
+				880C2E2E12F010B30050194F /* RequestObject.h */,
+				880C2E2F12F010B30050194F /* RequestObject.m */,
+				880C2E3012F010B30050194F /* ResponseObject.h */,
+				880C2E3112F010B30050194F /* ResponseObject.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		880C2E3612F010B30050194F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		880C2F7A12F011BA0050194F /* about */ = {
+			isa = PBXGroup;
+			children = (
+				880C2DF312F010B20050194F /* AboutCtrl.h */,
+				880C2DF412F010B20050194F /* AboutCtrl.m */,
+			);
+			name = about;
+			sourceTree = "<group>";
+		};
+		880C2F7B12F011C10050194F /* search */ = {
+			isa = PBXGroup;
+			children = (
+				880C2E3412F010B30050194F /* SearchCtrl.h */,
+				880C2E3512F010B30050194F /* SearchCtrl.m */,
+				880C2DFF12F010B20050194F /* SearchListCtrl.h */,
+				880C2E0012F010B20050194F /* SearchListCtrl.m */,
+				880C2DFD12F010B20050194F /* SearchedLocationAnnotation.h */,
+				880C2DFE12F010B20050194F /* SearchedLocationAnnotation.m */,
+				880C2E0112F010B20050194F /* SearchListCtrlCell.h */,
+				880C2E0212F010B20050194F /* SearchListCtrlCell.m */,
+				888A8BAA12F296F300B608B2 /* SearchChartCtrl.h */,
+				888A8BAB12F296F300B608B2 /* SearchChartCtrl.m */,
+				88B2E5991303B6B3009B9E3B /* ChartLayer.h */,
+				88B2E59A1303B6B3009B9E3B /* ChartLayer.m */,
+			);
+			name = search;
+			sourceTree = "<group>";
+		};
+		880C2F7C12F011C60050194F /* shorted list */ = {
+			isa = PBXGroup;
+			children = (
+				880C2E0312F010B20050194F /* ShortedListCtrl.h */,
+				880C2E0412F010B20050194F /* ShortedListCtrl.m */,
+			);
+			name = "shorted list";
+			sourceTree = "<group>";
+		};
+		880C2F7D12F011D80050194F /* recent */ = {
+			isa = PBXGroup;
+			children = (
+				880C2DFB12F010B20050194F /* RecentCtrl.h */,
+				880C2DFC12F010B20050194F /* RecentCtrl.m */,
+			);
+			name = recent;
+			sourceTree = "<group>";
+		};
+		880C2F7E12F011E70050194F /* buy */ = {
+			isa = PBXGroup;
+			children = (
+				880C2DF512F010B20050194F /* BuyCtrl.h */,
+				880C2DF612F010B20050194F /* BuyCtrl.m */,
+			);
+			name = buy;
+			sourceTree = "<group>";
+		};
+		880C2F7F12F011FC0050194F /* country */ = {
+			isa = PBXGroup;
+			children = (
+				880C2DF712F010B20050194F /* ChangeCountryCtrl.h */,
+				880C2DF812F010B20050194F /* ChangeCountryCtrl.m */,
+			);
+			name = country;
+			sourceTree = "<group>";
+		};
+		880C2F8012F012000050194F /* language */ = {
+			isa = PBXGroup;
+			children = (
+				880C2DF912F010B20050194F /* ChangeLanguageCtrl.h */,
+				880C2DFA12F010B20050194F /* ChangeLanguageCtrl.m */,
+			);
+			name = language;
+			sourceTree = "<group>";
+		};
+		888A8AD512F28C1B00B608B2 /* core-plot simulator */ = {
+			isa = PBXGroup;
+			children = (
+				888A8AFC12F28C5B00B608B2 /* libCorePlot-CocoaTouch.a */,
+			);
+			name = "core-plot simulator";
+			sourceTree = "<group>";
+		};
+		888A8AF512F28C2600B608B2 /* core-plot device */ = {
+			isa = PBXGroup;
+			children = (
+				888A8AFA12F28C5000B608B2 /* libCorePlot-CocoaTouch.a */,
+			);
+			name = "core-plot device";
+			sourceTree = "<group>";
+		};
+		888A8C8412F2A4FD00B608B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				888A8C8D12F2A4FD00B608B2 /* libCorePlot-CocoaTouch.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* RadrApp simulator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "RadrApp simulator" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RadrApp simulator";
+			productName = RadrApp;
+			productReference = 1D6058910D05DD3D006BFB54 /* RadrApp simulator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		888A8AFF12F28C7F00B608B2 /* RadrApp device */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 888A8B3512F28C7F00B608B2 /* Build configuration list for PBXNativeTarget "RadrApp device" */;
+			buildPhases = (
+				888A8B0012F28C7F00B608B2 /* Resources */,
+				888A8B0C12F28C7F00B608B2 /* Sources */,
+				888A8B2E12F28C7F00B608B2 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RadrApp device";
+			productName = RadrApp;
+			productReference = 888A8B3812F28C7F00B608B2 /* RadrApp Device.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RadrApp" */;
+			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				English,
+				Japanese,
+				French,
+				German,
+			);
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 888A8C8412F2A4FD00B608B2 /* Products */;
+					ProjectRef = 888A8C8312F2A4FD00B608B2 /* CorePlot-CocoaTouch.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* RadrApp simulator */,
+				888A8AFF12F28C7F00B608B2 /* RadrApp device */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		888A8C8D12F2A4FD00B608B2 /* libCorePlot-CocoaTouch.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libCorePlot-CocoaTouch.a";
+			remoteRef = 888A8C8C12F2A4FD00B608B2 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				880C2DD412F0108C0050194F /* aboutMain.xib in Resources */,
+				880C2DD512F0108C0050194F /* buyProMain.xib in Resources */,
+				880C2DD612F0108C0050194F /* changeCountryMain.xib in Resources */,
+				880C2DD712F0108C0050194F /* changeLanguageMain.xib in Resources */,
+				880C2DD812F0108C0050194F /* recentMain.xib in Resources */,
+				880C2DD912F0108C0050194F /* shortedListMain.xib in Resources */,
+				880C2DDA12F0108C0050194F /* searchMain.xib in Resources */,
+				880C2DDB12F0108C0050194F /* MainWindow.xib in Resources */,
+				880C2DDC12F0108C0050194F /* RadrApp-Info.plist in Resources */,
+				880C2DDD12F0108C0050194F /* config.plist in Resources */,
+				8890D83812F169FF00B97EE9 /* FloatWigit.xib in Resources */,
+				888A8BAE12F296F300B608B2 /* SearchChartCtrl.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888A8B0012F28C7F00B608B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888A8B0112F28C7F00B608B2 /* aboutMain.xib in Resources */,
+				888A8B0212F28C7F00B608B2 /* buyProMain.xib in Resources */,
+				888A8B0312F28C7F00B608B2 /* changeCountryMain.xib in Resources */,
+				888A8B0412F28C7F00B608B2 /* changeLanguageMain.xib in Resources */,
+				888A8B0512F28C7F00B608B2 /* recentMain.xib in Resources */,
+				888A8B0612F28C7F00B608B2 /* shortedListMain.xib in Resources */,
+				888A8B0712F28C7F00B608B2 /* searchMain.xib in Resources */,
+				888A8B0812F28C7F00B608B2 /* MainWindow.xib in Resources */,
+				888A8B0912F28C7F00B608B2 /* RadrApp-Info.plist in Resources */,
+				888A8B0A12F28C7F00B608B2 /* config.plist in Resources */,
+				888A8B0B12F28C7F00B608B2 /* FloatWigit.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				880C2E3712F010B30050194F /* NSObject+JSON.m in Sources */,
+				880C2E3812F010B30050194F /* SBJsonParser.m in Sources */,
+				880C2E3912F010B30050194F /* SBJsonStreamParser.m in Sources */,
+				880C2E3A12F010B30050194F /* SBJsonStreamParserAdapter.m in Sources */,
+				880C2E3B12F010B30050194F /* SBJsonStreamParserState.m in Sources */,
+				880C2E3C12F010B30050194F /* SBJsonStreamWriter.m in Sources */,
+				880C2E3D12F010B30050194F /* SBJsonStreamWriterState.m in Sources */,
+				880C2E3E12F010B30050194F /* SBJsonTokeniser.m in Sources */,
+				880C2E3F12F010B30050194F /* SBJsonWriter.m in Sources */,
+				880C2E4012F010B30050194F /* AboutCtrl.m in Sources */,
+				880C2E4112F010B30050194F /* BuyCtrl.m in Sources */,
+				880C2E4212F010B30050194F /* ChangeCountryCtrl.m in Sources */,
+				880C2E4312F010B30050194F /* ChangeLanguageCtrl.m in Sources */,
+				880C2E4412F010B30050194F /* RecentCtrl.m in Sources */,
+				880C2E4512F010B30050194F /* SearchedLocationAnnotation.m in Sources */,
+				880C2E4612F010B30050194F /* SearchListCtrl.m in Sources */,
+				880C2E4712F010B30050194F /* SearchListCtrlCell.m in Sources */,
+				880C2E4812F010B30050194F /* ShortedListCtrl.m in Sources */,
+				880C2E4912F010B30050194F /* UITabBarCtrlRadr.m in Sources */,
+				880C2E5412F010B30050194F /* Attribuition.m in Sources */,
+				880C2E5512F010B30050194F /* Labels.m in Sources */,
+				880C2E5612F010B30050194F /* Listing.m in Sources */,
+				880C2E5712F010B30050194F /* Location.m in Sources */,
+				880C2E5812F010B30050194F /* MetaData.m in Sources */,
+				880C2E5912F010B30050194F /* ModelParser.m in Sources */,
+				880C2E5A12F010B30050194F /* RadrModel.m in Sources */,
+				880C2E5B12F010B30050194F /* RadrReqest.m in Sources */,
+				880C2E5C12F010B30050194F /* RequestHeader.m in Sources */,
+				880C2E5D12F010B30050194F /* RequestObject.m in Sources */,
+				880C2E5E12F010B30050194F /* ResponseObject.m in Sources */,
+				880C2E5F12F010B30050194F /* RadrAppAppDelegate.m in Sources */,
+				880C2E6012F010B30050194F /* SearchCtrl.m in Sources */,
+				888A8BAD12F296F300B608B2 /* SearchChartCtrl.m in Sources */,
+				88B2E59B1303B6B3009B9E3B /* ChartLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		888A8B0C12F28C7F00B608B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				888A8B0D12F28C7F00B608B2 /* main.m in Sources */,
+				888A8B0E12F28C7F00B608B2 /* NSObject+JSON.m in Sources */,
+				888A8B0F12F28C7F00B608B2 /* SBJsonParser.m in Sources */,
+				888A8B1012F28C7F00B608B2 /* SBJsonStreamParser.m in Sources */,
+				888A8B1112F28C7F00B608B2 /* SBJsonStreamParserAdapter.m in Sources */,
+				888A8B1212F28C7F00B608B2 /* SBJsonStreamParserState.m in Sources */,
+				888A8B1312F28C7F00B608B2 /* SBJsonStreamWriter.m in Sources */,
+				888A8B1412F28C7F00B608B2 /* SBJsonStreamWriterState.m in Sources */,
+				888A8B1512F28C7F00B608B2 /* SBJsonTokeniser.m in Sources */,
+				888A8B1612F28C7F00B608B2 /* SBJsonWriter.m in Sources */,
+				888A8B1712F28C7F00B608B2 /* AboutCtrl.m in Sources */,
+				888A8B1812F28C7F00B608B2 /* BuyCtrl.m in Sources */,
+				888A8B1912F28C7F00B608B2 /* ChangeCountryCtrl.m in Sources */,
+				888A8B1A12F28C7F00B608B2 /* ChangeLanguageCtrl.m in Sources */,
+				888A8B1B12F28C7F00B608B2 /* RecentCtrl.m in Sources */,
+				888A8B1C12F28C7F00B608B2 /* SearchedLocationAnnotation.m in Sources */,
+				888A8B1D12F28C7F00B608B2 /* SearchListCtrl.m in Sources */,
+				888A8B1E12F28C7F00B608B2 /* SearchListCtrlCell.m in Sources */,
+				888A8B1F12F28C7F00B608B2 /* ShortedListCtrl.m in Sources */,
+				888A8B2012F28C7F00B608B2 /* UITabBarCtrlRadr.m in Sources */,
+				888A8B2112F28C7F00B608B2 /* Attribuition.m in Sources */,
+				888A8B2212F28C7F00B608B2 /* Labels.m in Sources */,
+				888A8B2312F28C7F00B608B2 /* Listing.m in Sources */,
+				888A8B2412F28C7F00B608B2 /* Location.m in Sources */,
+				888A8B2512F28C7F00B608B2 /* MetaData.m in Sources */,
+				888A8B2612F28C7F00B608B2 /* ModelParser.m in Sources */,
+				888A8B2712F28C7F00B608B2 /* RadrModel.m in Sources */,
+				888A8B2812F28C7F00B608B2 /* RadrReqest.m in Sources */,
+				888A8B2912F28C7F00B608B2 /* RequestHeader.m in Sources */,
+				888A8B2A12F28C7F00B608B2 /* RequestObject.m in Sources */,
+				888A8B2B12F28C7F00B608B2 /* ResponseObject.m in Sources */,
+				888A8B2C12F28C7F00B608B2 /* RadrAppAppDelegate.m in Sources */,
+				888A8B2D12F28C7F00B608B2 /* SearchCtrl.m in Sources */,
+				88B2E59C1303B6B3009B9E3B /* ChartLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RadrApp_Prefix.pch;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/../core-plot/build/Debug-iphonesimulator/usr/local/include/";
+				INFOPLIST_FILE = "RadrApp-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../core-plot/build/Debug-iphonesimulator\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "RadrApp simulator";
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RadrApp_Prefix.pch;
+				INFOPLIST_FILE = "RadrApp-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../core-plot/build/Debug-iphoneos\"",
+					"\"$(SRCROOT)/../core-plot/build/Debug-iphonesimulator\"",
+				);
+				PRODUCT_NAME = RadrApp;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		888A8B3612F28C7F00B608B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RadrApp_Prefix.pch;
+				HEADER_SEARCH_PATHS = "${SRCROOT}/../core-plot/build/Debug-iphoneos/usr/local/include/";
+				INFOPLIST_FILE = "RadrApp-Info copy.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 3.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\"$(SRCROOT)/../core-plot/build/Debug-iphoneos\\\"",
+					"\\\"$(SRCROOT)/../core-plot/build/Debug-iphonesimulator\\\"",
+					"\"$(SRCROOT)/../core-plot/build/Debug-iphoneos\"",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-all_load",
+				);
+				PRODUCT_NAME = "RadrApp Device";
+			};
+			name = Debug;
+		};
+		888A8B3712F28C7F00B608B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = RadrApp_Prefix.pch;
+				INFOPLIST_FILE = "RadrApp-Info copy.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\\\"$(SRCROOT)/../core-plot/build/Debug-iphoneos\\\"",
+					"\\\"$(SRCROOT)/../core-plot/build/Debug-iphonesimulator\\\"",
+					"\"$(SRCROOT)/../core-plot/build/Debug-iphoneos\"",
+				);
+				PRODUCT_NAME = RadrApp;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "RadrApp simulator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		888A8B3512F28C7F00B608B2 /* Build configuration list for PBXNativeTarget "RadrApp device" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				888A8B3612F28C7F00B608B2 /* Debug */,
+				888A8B3712F28C7F00B608B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "RadrApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

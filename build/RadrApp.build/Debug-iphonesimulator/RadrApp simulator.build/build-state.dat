@@ -1,0 +1,2265 @@
+TRadrApp simulator
+v7
+r0
+t319100022.445213
+cCheck dependencies
+cProcessInfoPlistFile "/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/Info.plist" RadrApp-Info.plist
+cCompileXIB /Users/imac/Desktop/zd/gl/RadrApp/aboutMain.xib
+cCompileXIB /Users/imac/Desktop/zd/gl/RadrApp/buyProMain.xib
+cCompileXIB /Users/imac/Desktop/zd/gl/RadrApp/changeCountryMain.xib
+cCompileXIB /Users/imac/Desktop/zd/gl/RadrApp/changeLanguageMain.xib
+cCompileXIB /Users/imac/Desktop/zd/gl/RadrApp/recentMain.xib
+cCompileXIB /Users/imac/Desktop/zd/gl/RadrApp/shortedListMain.xib
+cCompileXIB /Users/imac/Desktop/zd/gl/RadrApp/searchMain.xib
+cCompileXIB /Users/imac/Desktop/zd/gl/RadrApp/MainWindow.xib
+cCopyPlistFile "/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/RadrApp-Info.plist" RadrApp-Info.plist
+cCopyPlistFile "/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/config.plist" config.plist
+cCompileXIB /Users/imac/Desktop/zd/gl/RadrApp/FloatWigit.xib
+cCompileXIB /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchChartCtrl.xib
+cProcessPCH /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch.gch RadrApp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/main.o" /Users/imac/Desktop/zd/gl/RadrApp/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/NSObject+JSON.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/NSObject+JSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonParser.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonStreamParser.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonStreamParserAdapter.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamParserAdapter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonStreamParserState.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamParserState.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonStreamWriter.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonStreamWriterState.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamWriterState.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonTokeniser.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonTokeniser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonWriter.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/AboutCtrl.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/AboutCtrl.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/BuyCtrl.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/BuyCtrl.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ChangeCountryCtrl.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChangeCountryCtrl.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ChangeLanguageCtrl.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChangeLanguageCtrl.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RecentCtrl.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/RecentCtrl.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SearchedLocationAnnotation.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchedLocationAnnotation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SearchListCtrl.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchListCtrl.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SearchListCtrlCell.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchListCtrlCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ShortedListCtrl.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ShortedListCtrl.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/UITabBarCtrlRadr.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/UITabBarCtrlRadr.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/Attribuition.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/Attribuition.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/Labels.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/Labels.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/Listing.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/Listing.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/Location.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/Location.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/MetaData.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/MetaData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ModelParser.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/ModelParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RadrModel.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/RadrModel.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RadrReqest.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/RadrReqest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RequestHeader.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/RequestHeader.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RequestObject.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/RequestObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ResponseObject.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/ResponseObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RadrAppAppDelegate.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/RadrAppAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SearchCtrl.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/../SearchCtrl.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SearchChartCtrl.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchChartCtrl.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ChartLayer.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChartLayer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+cLd "/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/RadrApp simulator" normal i386
+cGenerateDSYMFile "/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app.dSYM" "/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/RadrApp simulator"
+cTouch "/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app"
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk
+c000000004CC128950000000000000110
+t1287727253
+s272
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
+c000000004CC12246000000000029B310
+t1287725638
+s2732816
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/CoreLocation
+c000000004CC127E80000000000074190
+t1287727080
+s475536
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/CoreLocation.framework/Headers/CoreLocation.h
+c000000004CC127DD00000000000001D0
+t1287727069
+s464
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004CC1226D000000000029D5D0
+t1287725677
+s2741712
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004CC1225F0000000000001466
+t1287725663
+s5222
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/Headers/MapKit.h
+c000000004CC1294D00000000000002FE
+t1287727437
+s766
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/MapKit.framework/MapKit
+c000000004CC12977000000000017E7F0
+t1287727479
+s1566704
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/CALayer.h
+c000000004CC1233D00000000000075D9
+t1287725885
+s30169
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.h
+c000000004CC1233C00000000000000C4
+t1287725884
+s196
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/QuartzCore.framework/QuartzCore
+c000000004CC12431000000000015CDB0
+t1287726129
+s1428912
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
+c000000004CC1281F0000000000000AA1
+t1287727135
+s2721
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
+c000000004CC12883000000000074D7B0
+t1287727235
+s7657392
+
+N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk/usr/include/TargetConditionals.h
+c000000004CB3FA0800000000000031E9
+t1286863368
+s12777
+
+N/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/libCorePlot-CocoaTouch.a
+c000000004D4535DE00000000001F7C48
+t1296381406
+s2063432
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/../SearchCtrl.m
+c000000004D4520E00000000000001553
+t1296376032
+s5459
+i"SearchCtrl.h"
+i"RequestHeader.h"
+i"RadrReqest.h"
+i"SearchListCtrl.h"
+i"Config.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/AboutCtrl.h
+c000000004D3FD9C900000000000000DC
+t1296030153
+s220
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/AboutCtrl.m
+c000000004D3FDD19000000000000016D
+t1296031001
+s365
+i"AboutCtrl.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/BuyCtrl.h
+c000000004D38123100000000000000D7
+t1295520305
+s215
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/BuyCtrl.m
+c000000004D3FDCFD0000000000000165
+t1296030973
+s357
+i"BuyCtrl.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChangeCountryCtrl.h
+c000000004D3FDD0B00000000000000EB
+t1296030987
+s235
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChangeCountryCtrl.m
+c000000004D3FDD060000000000000184
+t1296030982
+s388
+i"ChangeCountryCtrl.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChangeLanguageCtrl.h
+c000000004D38126C00000000000000ED
+t1295520364
+s237
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChangeLanguageCtrl.m
+c000000004D3FDD120000000000000186
+t1296030994
+s390
+i"ChangeLanguageCtrl.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChartAnnotationLayer.h
+c000000004D53805900000000000000FE
+t1297317977
+s254
+i<UIKit/UIKit.h>
+i<QuartzCore/CALayer.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChartAnnotationLayer.m
+c000000004D538028000000000000013A
+t1297317928
+s314
+i"ChartAnnotationLayer.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChartAxisLayer.h
+c000000004D53806100000000000000F3
+t1297317985
+s243
+i<UIKit/UIKit.h>
+i<QuartzCore/CALayer.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChartAxisLayer.m
+c000000004D5381870000000000000184
+t1297318279
+s388
+i"ChartAxisLayer.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChartLayer.h
+c000000004D53874B0000000000000112
+t1297319755
+s274
+i<UIKit/UIKit.h>
+i<QuartzCore/CALayer.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChartLayer.m
+c000000004D5382C700000000000002C2
+t1297318599
+s706
+i"ChartLayer.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/RecentCtrl.h
+c000000004D3FDFD900000000000000DC
+t1296031705
+s220
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/RecentCtrl.m
+c000000004D3FDFDE000000000000016E
+t1296031710
+s366
+i"RecentCtrl.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchChartCtrl.h
+c000000004D549B33000000000000023E
+t1297390387
+s574
+i<UIKit/UIKit.h>
+i"RadrReqest.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchChartCtrl.m
+c000000004D54DCEA0000000000001DA1
+t1297407210
+s7585
+i"SearchChartCtrl.h"
+i"RadrModel.h"
+i"RequestObject.h"
+i"ResponseObject.h"
+i"RequestHeader.h"
+i"Config.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchChartCtrl.xib
+c000000004D53A48F000000000000441A
+t1297327247
+s17434
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchListCtrl.h
+c000000004D452C30000000000000069E
+t1296378928
+s1694
+i<UIKit/UIKit.h>
+i<MapKit/MapKit.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchListCtrl.m
+c000000004D452C4500000000000045E5
+t1296378949
+s17893
+i"SearchListCtrl.h"
+i"RadrModel.h"
+i"ResponseObject.h"
+i"Listing.h"
+i"SearchListCtrlCell.h"
+i"SearchedLocationAnnotation.h"
+i"Location.h"
+i"Config.h"
+i"SearchChartCtrl.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchListCtrlCell.h
+c000000004D3D4BBF0000000000000256
+t1295862719
+s598
+i<UIKit/UIKit.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchListCtrlCell.m
+c000000004D3D52D10000000000000D81
+t1295864529
+s3457
+i"SearchListCtrlCell.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchedLocationAnnotation.h
+c000000004D40D99100000000000002DE
+t1296095633
+s734
+i<Foundation/Foundation.h>
+i<CoreLocation/CoreLocation.h>
+i<MapKit/MapKit.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchedLocationAnnotation.m
+c000000004D412BBE000000000000040D
+t1296116670
+s1037
+i"SearchedLocationAnnotation.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ShortedListCtrl.h
+c000000004D38124500000000000000E7
+t1295520325
+s231
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ShortedListCtrl.m
+c000000004D3FDCEA000000000000017E
+t1296030954
+s382
+i"ShortedListCtrl.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/UITabBarCtrlRadr.h
+c000000004D3FCDA100000000000000F1
+t1296027041
+s241
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/UITabBarCtrlRadr.m
+c000000004D3FCC4E00000000000000DA
+t1296026702
+s218
+i"UITabBarCtrlRadr.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/JSON.h
+c000000004D340E760000000000000B5B
+t1295257206
+s2907
+i"SBJsonParser.h"
+i"SBJsonWriter.h"
+i"SBJsonStreamWriter.h"
+i"SBJsonStreamParser.h"
+i"SBJsonStreamParserAdapter.h"
+i"NSObject+JSON.h"
+i<JSON/SBJsonParser.h>
+i<JSON/SBJsonWriter.h>
+i<JSON/SBJsonStreamParser.h>
+i<JSON/SBJsonStreamParserAdapter.h>
+i<JSON/SBJsonStreamWriter.h>
+i<JSON/NSObject+JSON.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/NSObject+JSON.h
+c000000004D340ACC0000000000000899
+t1295256268
+s2201
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/NSObject+JSON.m
+c000000004D340ACC00000000000008C2
+t1295256268
+s2242
+i"NSObject+JSON.h"
+i"SBJsonWriter.h"
+i"SBJsonParser.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonParser.h
+c000000004D340ACC0000000000000FCC
+t1295256268
+s4044
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonParser.m
+c000000004D340ACC0000000000000D75
+t1295256268
+s3445
+i"SBJsonParser.h"
+i"SBJsonStreamParser.h"
+i"SBJsonStreamParserAdapter.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamParser.h
+c000000004D340ACC0000000000001163
+t1295256268
+s4451
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamParser.m
+c000000004D340ACC0000000000001E93
+t1295256268
+s7827
+i"SBJsonStreamParser.h"
+i"SBJsonTokeniser.h"
+i"SBJsonStreamParserState.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamParserAdapter.h
+c000000004D340ACC0000000000000C3B
+t1295256268
+s3131
+i<Foundation/Foundation.h>
+i"SBJsonStreamParser.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamParserAdapter.m
+c000000004D340ACC00000000000011A1
+t1295256268
+s4513
+i"SBJsonStreamParserAdapter.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamParserState.h
+c000000004D340ACC0000000000000C6F
+t1295256268
+s3183
+i<Foundation/Foundation.h>
+i"SBJsonTokeniser.h"
+i"SBJsonStreamParser.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamParserState.m
+c000000004D340ACC0000000000002754
+t1295256268
+s10068
+i"SBJsonStreamParserState.h"
+i"SBJsonStreamParser.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamWriter.h
+c000000004D340ACC00000000000014F0
+t1295256268
+s5360
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamWriter.m
+c000000004D340ACC0000000000002893
+t1295256268
+s10387
+i"SBJsonStreamWriter.h"
+i"SBJsonStreamWriterState.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamWriterState.h
+c000000004D340ACC0000000000000B5D
+t1295256268
+s2909
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamWriterState.m
+c000000004D340ACC0000000000001369
+t1295256268
+s4969
+i"SBJsonStreamWriterState.h"
+i"SBJsonStreamWriter.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonTokeniser.h
+c000000004D340ACC0000000000000923
+t1295256268
+s2339
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonTokeniser.m
+c000000004D340ACC00000000000027C0
+t1295256268
+s10176
+i"SBJsonTokeniser.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonWriter.h
+c000000004D340ACC00000000000012F9
+t1295256268
+s4857
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonWriter.m
+c000000004D340ACC0000000000000C98
+t1295256268
+s3224
+i"SBJsonWriter.h"
+i"SBJsonStreamWriter.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/Attribuition.h
+c000000004D36A83100000000000001CC
+t1295427633
+s460
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/Attribuition.m
+c000000004D36862600000000000001A3
+t1295418918
+s419
+i"Attribuition.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/Labels.h
+c000000004D368706000000000000012C
+t1295419142
+s300
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/Labels.m
+c000000004D3687270000000000000140
+t1295419175
+s320
+i"Labels.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/Listing.h
+c000000004D3FE1570000000000001140
+t1296032087
+s4416
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/Listing.m
+c000000004D40FE340000000000000B9C
+t1296105012
+s2972
+i"Listing.h"
+i"Config.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/Location.h
+c000000004D368B4900000000000001BA
+t1295420233
+s442
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/Location.m
+c000000004D36922900000000000001CF
+t1295421993
+s463
+i"Location.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/MetaData.h
+c000000004D36921F0000000000000497
+t1295421983
+s1175
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/MetaData.m
+c000000004D3695930000000000000475
+t1295422867
+s1141
+i"MetaData.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/ModelParser.h
+c000000004D3697A1000000000000016D
+t1295423393
+s365
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/ModelParser.m
+c000000004D539AA1000000000000271D
+t1297324705
+s10013
+i"ModelParser.h"
+i"RadrModel.h"
+i"RequestObject.h"
+i"Attribuition.h"
+i"ResponseObject.h"
+i"Listing.h"
+i"Location.h"
+i"MetaData.h"
+i"Labels.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/RadrModel.h
+c000000004D36808400000000000001AA
+t1295417476
+s426
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/RadrModel.m
+c000000004D36A30A000000000000022F
+t1295426314
+s559
+i"RadrModel.h"
+i"RequestObject.h"
+i"ResponseObject.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/RadrReqest.h
+c000000004D3FE3AE00000000000003D0
+t1296032686
+s976
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/RadrReqest.m
+c000000004D539D1A0000000000000F50
+t1297325338
+s3920
+i"RadrReqest.h"
+i"RequestHeader.h"
+i"ModelParser.h"
+i"JSON.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/RequestHeader.h
+c000000004D3FC09D00000000000002C9
+t1296023709
+s713
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/RequestHeader.m
+c000000004D5389C600000000000011EC
+t1297320390
+s4588
+i"RequestHeader.h"
+i"Config.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/RequestObject.h
+c000000004D426634000000000000057C
+t1296197172
+s1404
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/RequestObject.m
+c000000004D4266460000000000000385
+t1296197190
+s901
+i"RequestObject.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/ResponseObject.h
+c000000004D539BAA000000000000090F
+t1297324970
+s2319
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/ResponseObject.m
+c000000004D539BBB0000000000000865
+t1297324987
+s2149
+i"ResponseObject.h"
+i"Attribuition.h"
+i"MetaData.h"
+i"Labels.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/RadrAppAppDelegate.h
+c000000004D3FCC4900000000000001E7
+t1296026697
+s487
+i<UIKit/UIKit.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/RadrAppAppDelegate.m
+c000000004D3FDC340000000000000BE0
+t1296030772
+s3040
+i"RadrAppAppDelegate.h"
+i"SearchCtrl.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Classes/SearchCtrl.h
+c000000004D3FE22A0000000000000379
+t1296032298
+s889
+i<UIKit/UIKit.h>
+i"RadrReqest.h"
+
+N/Users/imac/Desktop/zd/gl/RadrApp/Config.h
+c000000004D3FD97900000000000007D4
+t1296030073
+s2004
+
+N/Users/imac/Desktop/zd/gl/RadrApp/FloatWigit.xib
+c000000004D4520A30000000000007978
+t1296375971
+s31096
+
+N/Users/imac/Desktop/zd/gl/RadrApp/MainWindow.xib
+c000000004D40FE48000000000001031C
+t1296105032
+s66332
+
+N/Users/imac/Desktop/zd/gl/RadrApp/RadrApp-Info.plist
+c000000004D4254FF000000000000036F
+t1296192767
+s879
+
+N/Users/imac/Desktop/zd/gl/RadrApp/RadrApp_Prefix.pch
+c000000004D4534C600000000000000B7
+t1296381126
+s183
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/aboutMain.xib
+c000000004D3FD9C60000000000003D67
+t1296030150
+s15719
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app
+t1297407222
+s578
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app.dSYM
+t1297407222
+s102
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/FloatWigit.nib
+t1296382185
+s4689
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/Info.plist
+t1296382183
+s623
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/MainWindow.nib
+t1296382184
+s7171
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/PkgInfo
+t1296382183
+s8
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/RadrApp simulator
+t1297407222
+s1004944
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/RadrApp-Info.plist
+t1296380010
+s464
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/SearchChartCtrl.nib
+t1297327356
+s1231
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/aboutMain.nib
+t1296382183
+s1231
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/buyProMain.nib
+t1296382183
+s1231
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/changeCountryMain.nib
+t1296382184
+s1231
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/changeLanguageMain.nib
+t1296382184
+s1231
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/config.plist
+t1296380010
+s254
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/recentMain.nib
+t1296382184
+s1231
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/searchMain.nib
+t1296382184
+s5187
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/shortedListMain.nib
+t1296382184
+s1231
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp.app
+t1296125937
+s544
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp.app.dSYM
+t1296125937
+s102
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp.app/FloatWigit.nib
+t1296121413
+s4388
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp.app/Info.plist
+t1296109859
+s587
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp.app/MainWindow.nib
+t1296109861
+s7171
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp.app/PkgInfo
+t1296109859
+s8
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp.app/RadrApp
+t1296125937
+s277344
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp.app/RadrApp-Info.plist
+t1296109861
+s464
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp.app/aboutMain.nib
+t1296109859
+s1231
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp.app/buyProMain.nib
+t1296109859
+s1231
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp.app/changeCountryMain.nib
+t1296109859
+s1231
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp.app/changeLanguageMain.nib
+t1296109859
+s1231
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp.app/config.plist
+t1296109861
+s254
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp.app/recentMain.nib
+t1296109860
+s1231
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp.app/searchMain.nib
+t1296109861
+s5187
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp.app/shortedListMain.nib
+t1296109860
+s1231
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/AboutCtrl.o
+t1296382186
+s37136
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/Attribuition.o
+t1296382186
+s11228
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/BuyCtrl.o
+t1296382186
+s37100
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ChangeCountryCtrl.o
+t1296382186
+s37280
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ChangeLanguageCtrl.o
+t1296382186
+s37296
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ChartAnnotationLayer.o
+t1297317977
+s8000
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ChartAxisLayer.o
+t1297318219
+s8108
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ChartLayer.o
+t1297320034
+s10328
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/Labels.o
+t1296382186
+s8908
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/Listing.o
+t1296382186
+s53480
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/Location.o
+t1296382186
+s12224
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/MetaData.o
+t1296382186
+s24020
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ModelParser.o
+t1297324990
+s46312
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/NSObject+JSON.o
+t1296382185
+s8648
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RadrApp simulator.LinkFileList
+c000000004D53886100000000000012AE
+t1297320033
+s4782
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RadrApp.LinkFileList
+c00000000000000000000000000000000
+t2
+s0
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RadrAppAppDelegate.o
+t1296382186
+s54772
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RadrModel.o
+t1297324990
+s11788
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RadrReqest.o
+t1297325339
+s60264
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RecentCtrl.o
+t1296382186
+s37152
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RequestHeader.o
+t1297320392
+s25212
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RequestObject.o
+t1296382186
+s22416
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ResponseObject.o
+t1297324990
+s36240
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonParser.o
+t1296382185
+s17652
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonStreamParser.o
+t1296382185
+s30644
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonStreamParserAdapter.o
+t1296382185
+s24668
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonStreamParserState.o
+t1296382185
+s40740
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonStreamWriter.o
+t1296382185
+s44688
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonStreamWriterState.o
+t1296382185
+s24432
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonTokeniser.o
+t1296382185
+s33616
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonWriter.o
+t1296382185
+s18204
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SearchChartCtrl.o
+t1297407222
+s70220
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SearchCtrl.o
+t1296382187
+s67632
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SearchListCtrl.o
+t1297390391
+s111084
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SearchListCtrlCell.o
+t1296382186
+s53252
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SearchedLocationAnnotation.o
+t1296382186
+s17032
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ShortedListCtrl.o
+t1296382186
+s37244
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/UITabBarCtrlRadr.o
+t1296382186
+s5168
+
+N/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/main.o
+t1296382185
+s6292
+
+N/Users/imac/Desktop/zd/gl/RadrApp/buyProMain.xib
+c000000004D380ECE0000000000003DC4
+t1295519438
+s15812
+
+N/Users/imac/Desktop/zd/gl/RadrApp/changeCountryMain.xib
+c000000004D380EC50000000000003DE8
+t1295519429
+s15848
+
+N/Users/imac/Desktop/zd/gl/RadrApp/changeLanguageMain.xib
+c000000004D380EBE0000000000003DF0
+t1295519422
+s15856
+
+N/Users/imac/Desktop/zd/gl/RadrApp/config.plist
+c000000004D38EA6B0000000000000248
+t1295575659
+s584
+
+N/Users/imac/Desktop/zd/gl/RadrApp/main.m
+c000000004D3FD8E90000000000000166
+t1296029929
+s358
+i<UIKit/UIKit.h>
+
+N/Users/imac/Desktop/zd/gl/RadrApp/recentMain.xib
+c000000004D380EB40000000000003ED6
+t1295519412
+s16086
+
+N/Users/imac/Desktop/zd/gl/RadrApp/searchMain.xib
+c000000004D38EAF50000000000007FC7
+t1295575797
+s32711
+
+N/Users/imac/Desktop/zd/gl/RadrApp/shortedListMain.xib
+c000000004D380E950000000000003DE2
+t1295519381
+s15842
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPAnnotation.h
+c000000004D4250ED000000000000037D
+t1296191725
+s893
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPAnnotationHostLayer.h
+c000000004D4250ED0000000000000151
+t1296191725
+s337
+i"CPLayer.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPAxis.h
+c000000004D4250ED0000000000001E9E
+t1296191725
+s7838
+i<Foundation/Foundation.h>
+i"CPLayer.h"
+i"CPDefinitions.h"
+i"CPTextStyle.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPAxisLabel.h
+c000000004D4250ED000000000000040D
+t1296191725
+s1037
+i<Foundation/Foundation.h>
+i"CPDefinitions.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPAxisLabelGroup.h
+c000000004D4250ED0000000000000068
+t1296191725
+s104
+i<Foundation/Foundation.h>
+i"CPLayer.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPAxisSet.h
+c000000004D4250ED0000000000000144
+t1296191725
+s324
+i<Foundation/Foundation.h>
+i"CPLayer.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPAxisTitle.h
+c000000004D4250ED000000000000006D
+t1296191725
+s109
+i<Foundation/Foundation.h>
+i"CPAxisLabel.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPBarPlot.h
+c000000004D4250ED0000000000000C39
+t1296191725
+s3129
+i<Foundation/Foundation.h>
+i"CPPlot.h"
+i"CPDefinitions.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPBorderedLayer.h
+c000000004D4250ED000000000000015B
+t1296191725
+s347
+i<Foundation/Foundation.h>
+i"CPAnnotationHostLayer.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPColor.h
+c000000004D4250ED0000000000000439
+t1296191725
+s1081
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPColorSpace.h
+c000000004D4250ED0000000000000141
+t1296191725
+s321
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPConstrainedPosition.h
+c000000004D4250ED000000000000031A
+t1296191725
+s794
+i<Foundation/Foundation.h>
+i"CPDefinitions.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPDarkGradientTheme.h
+c000000004D4250ED000000000000006F
+t1296191725
+s111
+i<Foundation/Foundation.h>
+i"CPXYTheme.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPDefinitions.h
+c000000004D4250ED0000000000000E32
+t1296191725
+s3634
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPExceptions.h
+c000000004D4250ED00000000000000E1
+t1296191725
+s225
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPFill.h
+c000000004D4250ED0000000000000346
+t1296191725
+s838
+i<QuartzCore/QuartzCore.h>
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPGradient.h
+c000000004D4250ED0000000000000B97
+t1296191725
+s2967
+i<Foundation/Foundation.h>
+i"CPDefinitions.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPGraph.h
+c000000004D4533E60000000000000B96
+t1296380902
+s2966
+i"CPBorderedLayer.h"
+i"CPDefinitions.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPGraphHostingView.h
+c000000004D4250ED0000000000000114
+t1296191725
+s276
+i<UIKit/UIKit.h>
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPGridLines.h
+c000000004D4250ED000000000000010A
+t1296191725
+s266
+i<Foundation/Foundation.h>
+i"CPLayer.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPImage.h
+c000000004D4250ED00000000000002AA
+t1296191725
+s682
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPLayer.h
+c000000004D4250ED0000000000000840
+t1296191725
+s2112
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+i"CPLineStyle.h"
+i"CPResponder.h"
+i"CPPlatformSpecificDefines.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPLayerAnnotation.h
+c000000004D4250ED00000000000001F1
+t1296191725
+s497
+i<Foundation/Foundation.h>
+i"CPAnnotation.h"
+i"CPConstrainedPosition.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPLayoutManager.h
+c000000004D4250ED00000000000006B2
+t1296191725
+s1714
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPLimitBand.h
+c000000004D4250ED00000000000001C3
+t1296191725
+s451
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPLineStyle.h
+c000000004D4250ED000000000000040E
+t1296191725
+s1038
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPMutableLineStyle.h
+c000000004D4250ED0000000000000233
+t1296191725
+s563
+i<Foundation/Foundation.h>
+i"CPLineStyle.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPMutableNumericData+TypeConversion.h
+c000000004D4250ED00000000000002BD
+t1296191725
+s701
+i<Foundation/Foundation.h>
+i"CPMutableNumericData.h"
+i"CPNumericDataType.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPMutableNumericData.h
+c000000004D4250ED0000000000000336
+t1296191725
+s822
+i<Foundation/Foundation.h>
+i"CPNumericDataType.h"
+i"CPNumericData.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPMutableTextStyle.h
+c000000004D4250ED0000000000000130
+t1296191725
+s304
+i<Foundation/Foundation.h>
+i"CPTextStyle.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPNumericData+TypeConversion.h
+c000000004D4250ED0000000000000369
+t1296191725
+s873
+i<Foundation/Foundation.h>
+i"CPNumericData.h"
+i"CPNumericDataType.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPNumericData.h
+c000000004D4250ED000000000000088E
+t1296191725
+s2190
+i<Foundation/Foundation.h>
+i"CPNumericDataType.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPNumericDataType.h
+c000000004D4250ED00000000000004F5
+t1296191725
+s1269
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPPathExtensions.h
+c000000004D4250ED0000000000000126
+t1296191725
+s294
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPPieChart.h
+c000000004D4250ED0000000000000E11
+t1296191725
+s3601
+i<Foundation/Foundation.h>
+i"CPPlot.h"
+i"CPDefinitions.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPPlainBlackTheme.h
+c000000004D4250ED000000000000006E
+t1296191725
+s110
+i<Foundation/Foundation.h>
+i"CPXYTheme.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPPlainWhiteTheme.h
+c000000004D4250ED000000000000006E
+t1296191725
+s110
+i<Foundation/Foundation.h>
+i"CPXYTheme.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPPlatformSpecificCategories.h
+c000000004D4250ED000000000000039E
+t1296191725
+s926
+i<UIKit/UIKit.h>
+i"CPColor.h"
+i"CPLayer.h"
+i"CPPlatformSpecificDefines.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPPlatformSpecificDefines.h
+c000000004D4535D8000000000000005B
+t1296381400
+s91
+i<Foundation/Foundation.h>
+i<UIKit/UIKit.h>
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPPlatformSpecificFunctions.h
+c000000004D4250ED000000000000015D
+t1296191725
+s349
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPPlot.h
+c000000004D4250ED0000000000001D10
+t1296191725
+s7440
+i"CPDefinitions.h"
+i"CPPlotRange.h"
+i"CPNumericDataType.h"
+i"CPAnnotationHostLayer.h"
+i"CPMutableTextStyle.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPPlotArea.h
+c000000004D4250ED0000000000000641
+t1296191725
+s1601
+i<Foundation/Foundation.h>
+i"CPLayer.h"
+i"CPGraph.h"
+i"CPAnnotationHostLayer.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPPlotAreaFrame.h
+c000000004D4250ED000000000000016F
+t1296191725
+s367
+i"CPBorderedLayer.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPPlotGroup.h
+c000000004D53565B0000000000000142
+t1297307227
+s322
+i"CPLayer.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPPlotRange.h
+c000000004D4250ED00000000000008A0
+t1296191725
+s2208
+i<Foundation/Foundation.h>
+i"CPDefinitions.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPPlotSpace.h
+c000000004D4250ED0000000000000FE7
+t1296191725
+s4071
+i"CPDefinitions.h"
+i"CPResponder.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPPlotSpaceAnnotation.h
+c000000004D4250ED0000000000000197
+t1296191725
+s407
+i<Foundation/Foundation.h>
+i"CPAnnotation.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPPlotSymbol.h
+c000000004D4250ED000000000000084E
+t1296191725
+s2126
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPPolarPlotSpace.h
+c000000004D4250ED0000000000000075
+t1296191725
+s117
+i<Foundation/Foundation.h>
+i"CPPlotSpace.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPRangePlot.h
+c000000004D4250ED0000000000000442
+t1296191725
+s1090
+i<Foundation/Foundation.h>
+i"CPPlot.h"
+i"CPDefinitions.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPResponder.h
+c000000004D4250ED0000000000000535
+t1296191725
+s1333
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPScatterPlot.h
+c000000004D4250ED0000000000000CE3
+t1296191725
+s3299
+i<Foundation/Foundation.h>
+i"CPPlot.h"
+i"CPDefinitions.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPSlateTheme.h
+c000000004D4250ED0000000000000068
+t1296191725
+s104
+i<Foundation/Foundation.h>
+i"CPXYTheme.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPStocksTheme.h
+c000000004D4250ED000000000000006A
+t1296191725
+s106
+i<Foundation/Foundation.h>
+i"CPXYTheme.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPTextLayer.h
+c000000004D4250ED000000000000023D
+t1296191725
+s573
+i"CPLayer.h"
+i"CPTextStyle.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPTextStyle.h
+c000000004D4250ED0000000000000352
+t1296191725
+s850
+i<Foundation/Foundation.h>
+i<QuartzCore/QuartzCore.h>
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPTheme.h
+c000000004D4250ED00000000000004B7
+t1296191725
+s1207
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPTimeFormatter.h
+c000000004D4250ED0000000000000175
+t1296191725
+s373
+i<Foundation/Foundation.h>
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPTradingRangePlot.h
+c000000004D4250ED000000000000077E
+t1296191725
+s1918
+i<Foundation/Foundation.h>
+i"CPPlot.h"
+i"CPDefinitions.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPUtilities.h
+c000000004D4250ED0000000000000D35
+t1296191725
+s3381
+i<Foundation/Foundation.h>
+i"CPDefinitions.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPXYAxis.h
+c000000004D4250ED000000000000020E
+t1296191725
+s526
+i<Foundation/Foundation.h>
+i"CPAxis.h"
+i"CPDefinitions.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPXYAxisSet.h
+c000000004D4250ED00000000000000EB
+t1296191725
+s235
+i<Foundation/Foundation.h>
+i"CPAxisSet.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPXYGraph.h
+c000000004D4250ED0000000000000154
+t1296191725
+s340
+i<Foundation/Foundation.h>
+i"CPGraph.h"
+i"CPDefinitions.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPXYPlotSpace.h
+c000000004D4250ED000000000000030F
+t1296191725
+s783
+i"CPPlotSpace.h"
+i"CPDefinitions.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CPXYTheme.h
+c000000004D4250ED0000000000000062
+t1296191725
+s98
+i<Foundation/Foundation.h>
+i"CPTheme.h"
+
+N/Users/imac/Desktop/zd/gl/core-plot/build/Debug-iphonesimulator/usr/local/include/CorePlot-CocoaTouch.h
+c000000004D4250ED00000000000006E9
+t1296191725
+s1769
+i"CPAnnotation.h"
+i"CPAnnotationHostLayer.h"
+i"CPAxis.h"
+i"CPAxisLabel.h"
+i"CPAxisLabelGroup.h"
+i"CPAxisSet.h"
+i"CPAxisTitle.h"
+i"CPBarPlot.h"
+i"CPBorderedLayer.h"
+i"CPColor.h"
+i"CPColorSpace.h"
+i"CPConstrainedPosition.h"
+i"CPDarkGradientTheme.h"
+i"CPDefinitions.h"
+i"CPExceptions.h"
+i"CPFill.h"
+i"CPGradient.h"
+i"CPGraph.h"
+i"CPGraphHostingView.h"
+i"CPGridLines.h"
+i"CPImage.h"
+i"CPLayer.h"
+i"CPLayerAnnotation.h"
+i"CPLayoutManager.h"
+i"CPLimitBand.h"
+i"CPLineStyle.h"
+i"CPMutableLineStyle.h"
+i"CPMutableNumericData.h"
+i"CPMutableNumericData+TypeConversion.h"
+i"CPMutableTextStyle.h"
+i"CPNumericData.h"
+i"CPNumericData+TypeConversion.h"
+i"CPNumericDataType.h"
+i"CPPieChart.h"
+i"CPPlainBlackTheme.h"
+i"CPPlainWhiteTheme.h"
+i"CPPlatformSpecificDefines.h"
+i"CPPlatformSpecificFunctions.h"
+i"CPPlatformSpecificCategories.h"
+i"CPPathExtensions.h"
+i"CPPlot.h"
+i"CPPlotArea.h"
+i"CPPlotAreaFrame.h"
+i"CPPlotGroup.h"
+i"CPPlotRange.h"
+i"CPPlotSpace.h"
+i"CPPlotSpaceAnnotation.h"
+i"CPPlotSymbol.h"
+i"CPPolarPlotSpace.h"
+i"CPRangePlot.h"
+i"CPResponder.h"
+i"CPScatterPlot.h"
+i"CPSlateTheme.h"
+i"CPSlateTheme.h"
+i"CPStocksTheme.h"
+i"CPTextLayer.h"
+i"CPTextStyle.h"
+i"CPTheme.h"
+i"CPTimeFormatter.h"
+i"CPTradingRangePlot.h"
+i"CPUtilities.h"
+i"CPXYAxis.h"
+i"CPXYAxisSet.h"
+i"CPXYGraph.h"
+i"CPXYPlotSpace.h"
+i"CPXYTheme.h"
+
+N/var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-awdetyqjuzmgaybqfhbfweymscyo/RadrApp_Prefix.pch.gch
+t1296381127
+s15477968
+
+N/var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-aykdnvhofazwctccuyabwkvbuvxj/RadrApp_Prefix.pch.gch
+t1296109861
+s15477968
+
+N/var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-fgjphevnruekzqhdqvlzrmhidaxl/RadrApp_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-gqesycnaxbdbpdcajjujcpheuang/RadrApp_Prefix.pch.gch
+t1296382163
+s15477968
+
+N/var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch.gch
+t1296381577
+s15477968
+
+NRadrApp-Info.plist
+c000000004D4254FF000000000000036F
+t1296192767
+s879
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies319100021#319100021#0(114"[WARN]Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'RadrApp-Info.plist'.1(22@107"Warning: The Copy Bundle Resources build phase contains this target's Info.plist file 'RadrApp-Info.plist'.319100021#18446744073709551615#0#0(1@0"0(0#1#0"8623049408#0"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/AboutCtrl.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/AboutCtrl.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318074985.951255
+e318074986.052487
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/AboutCtrl.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/AboutCtrl.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/AboutCtrl.m318074985#318074986#0(0"0(0#0#59"/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/AboutCtrl.m8648553216#2102"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/AboutCtrl.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/AboutCtrl.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/Attribuition.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/Attribuition.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318074986.418924
+e318074986.510136
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/Attribuition.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/Attribuition.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/Attribuition.m318074986#318074986#0(0"0(0#0#62"/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/Attribuition.m8619969344#2108"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/Attribuition.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/Attribuition.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/BuyCtrl.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/BuyCtrl.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318074985.982582
+e318074986.050920
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/BuyCtrl.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/BuyCtrl.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/BuyCtrl.m318074985#318074986#0(0"0(0#0#57"/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/BuyCtrl.m8623471840#2098"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/BuyCtrl.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/BuyCtrl.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ChangeCountryCtrl.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChangeCountryCtrl.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318074986.051021
+e318074986.123995
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ChangeCountryCtrl.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChangeCountryCtrl.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChangeCountryCtrl.m318074986#318074986#0(0"0(0#0#67"/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChangeCountryCtrl.m8651387616#2118"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChangeCountryCtrl.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ChangeCountryCtrl.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ChangeLanguageCtrl.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChangeLanguageCtrl.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318074986.052554
+e318074986.150348
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ChangeLanguageCtrl.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChangeLanguageCtrl.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChangeLanguageCtrl.m318074986#318074986#0(0"0(0#0#68"/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChangeLanguageCtrl.m8650254880#2120"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChangeLanguageCtrl.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ChangeLanguageCtrl.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ChartAnnotationLayer.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChartAnnotationLayer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319010777.465370
+e319010777.544306
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ChartAnnotationLayer.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChartAnnotationLayer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChartAnnotationLayer.m319010777#319010777#0(0"0(0#0#70"/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChartAnnotationLayer.m8628241152#2124"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChartAnnotationLayer.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ChartAnnotationLayer.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ChartAxisLayer.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChartAxisLayer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319011019.316442
+e319011019.444317
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ChartAxisLayer.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChartAxisLayer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChartAxisLayer.m319011019#319011019#0(0"0(0#0#64"/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChartAxisLayer.m8604529024#2112"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChartAxisLayer.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ChartAxisLayer.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ChartLayer.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChartLayer.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319012834.069798
+e319012834.399528
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ChartLayer.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChartLayer.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChartLayer.m319012834#319012834#0(0"0(0#0#60"/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChartLayer.m8658993856#2104"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ChartLayer.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ChartLayer.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/Labels.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/Labels.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318074986.451374
+e318074986.506829
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/Labels.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/Labels.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@64"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/Labels.m318074986#318074986#0(0"0(0#0#56"/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/Labels.m8607457088#2096"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/Labels.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/Labels.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/Listing.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/Listing.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318074986.506926
+e318074986.640177
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/Listing.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/Listing.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@65"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/Listing.m318074986#318074986#0(0"0(0#0#57"/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/Listing.m8651497600#2098"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/Listing.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/Listing.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/Location.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/Location.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318074986.510214
+e318074986.570232
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/Location.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/Location.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/Location.m318074986#318074986#0(0"0(0#0#58"/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/Location.m8650458368#2100"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/Location.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/Location.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/MetaData.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/MetaData.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318074986.570324
+e318074986.667144
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/MetaData.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/MetaData.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@66"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/MetaData.m318074986#318074986#0(0"0(0#0#58"/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/MetaData.m8649564800#2100"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/MetaData.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/MetaData.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ModelParser.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/ModelParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319017787.469691
+e319017790.460544
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ModelParser.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/ModelParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/ModelParser.m: In function '-[ModelParser consumingResponse:]':
+o/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/ModelParser.m:137: warning: passing argument 1 of 'setCreated_unix:' makes integer from pointer without a cast
+lSLF07#2@69"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/ModelParser.m319017787#319017790#0(271"/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/ModelParser.m: In function '-[ModelParser consumingResponse:]':/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/ModelParser.m:137: warning: passing argument 1 of 'setCreated_unix:' makes integer from pointer without a cast1(22@82"Passing argument 1 of 'setCreated_unix:' makes integer from pointer without a cast319017787#112#159#0(6@61"/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/ModelParser.m319017505#137#0#137#0#67"passing argument * of '*' makes integer from pointer without a cast0(0#0#61"/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/ModelParser.m8664242592#2106"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/ModelParser.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ModelParser.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/NSObject+JSON.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/NSObject+JSON.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318074985.390398
+e318074985.469019
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/NSObject+JSON.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/NSObject+JSON.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/NSObject+JSON.m318074985#318074985#0(0"0(0#0#62"/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/NSObject+JSON.m8650648928#2109"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/NSObject+JSON.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/NSObject+JSON.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RadrAppAppDelegate.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/RadrAppAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318074986.917140
+e318074987.003773
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RadrAppAppDelegate.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/RadrAppAppDelegate.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@70"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/RadrAppAppDelegate.m318074986#318074987#0(0"0(0#0#62"/Users/imac/Desktop/zd/gl/RadrApp/Classes/RadrAppAppDelegate.m8650026432#2114"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/RadrAppAppDelegate.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RadrAppAppDelegate.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RadrModel.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/RadrModel.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319017790.460770
+e319017790.701338
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RadrModel.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/RadrModel.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@67"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/RadrModel.m319017790#319017790#0(0"0(0#0#59"/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/RadrModel.m8634123936#2102"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/RadrModel.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RadrModel.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RadrReqest.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/RadrReqest.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319018139.312530
+e319018139.393176
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RadrReqest.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/RadrReqest.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/RadrReqest.m319018139#319018139#0(0"0(0#0#60"/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/RadrReqest.m8664132608#2104"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/RadrReqest.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RadrReqest.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RecentCtrl.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/RecentCtrl.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318074986.124079
+e318074986.200166
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RecentCtrl.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/RecentCtrl.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@68"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/RecentCtrl.m318074986#318074986#0(0"0(0#0#60"/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/RecentCtrl.m8649176928#2104"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/RecentCtrl.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RecentCtrl.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RequestHeader.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/RequestHeader.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319013192.223879
+e319013192.791631
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RequestHeader.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/RequestHeader.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/RequestHeader.m319013192#319013192#0(0"0(0#0#63"/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/RequestHeader.m8605740832#2110"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/RequestHeader.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RequestHeader.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RequestObject.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/RequestObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318074986.835002
+e318074986.917048
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RequestObject.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/RequestObject.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/RequestObject.m318074986#318074986#0(0"0(0#0#63"/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/RequestObject.m8652701216#2110"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/RequestObject.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RequestObject.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ResponseObject.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/ResponseObject.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319017790.574342
+e319017790.751332
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ResponseObject.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/ResponseObject.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/ResponseObject.m319017790#319017790#0(0"0(0#0#64"/Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/ResponseObject.m8628619392#2112"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/Model/ResponseObject.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ResponseObject.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonParser.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318074985.446644
+e318074985.529847
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonParser.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonParser.m318074985#318074985#0(0"0(0#0#61"/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonParser.m8649911584#2107"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonParser.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonParser.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonStreamParser.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamParser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318074985.469112
+e318074985.621864
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonStreamParser.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamParser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamParser.m318074985#318074985#0(0"0(0#0#67"/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamParser.m8646427328#2119"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamParser.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonStreamParser.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonStreamParserAdapter.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamParserAdapter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318074985.529966
+e318074985.618021
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonStreamParserAdapter.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamParserAdapter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@82"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamParserAdapter.m318074985#318074985#0(0"0(0#0#74"/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamParserAdapter.m8638331680#2133"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamParserAdapter.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonStreamParserAdapter.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonStreamParserState.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamParserState.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318074985.618147
+e318074985.734643
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonStreamParserState.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamParserState.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamParserState.m318074985#318074985#0(0"0(0#0#72"/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamParserState.m8628940224#2129"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamParserState.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonStreamParserState.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonStreamWriter.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318074985.621953
+e318074985.756611
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonStreamWriter.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@75"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamWriter.m318074985#318074985#0(0"0(0#0#67"/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamWriter.m8606399520#2119"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamWriter.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonStreamWriter.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonStreamWriterState.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamWriterState.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318074985.734748
+e318074985.841561
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonStreamWriterState.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamWriterState.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@80"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamWriterState.m318074985#318074985#0(0"0(0#0#72"/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamWriterState.m8638470496#2129"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonStreamWriterState.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonStreamWriterState.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonTokeniser.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonTokeniser.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318074985.756706
+e318074985.982463
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonTokeniser.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonTokeniser.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonTokeniser.m318074985#318074986#0(0"0(0#0#64"/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonTokeniser.m8607829312#2113"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonTokeniser.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonTokeniser.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonWriter.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonWriter.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318074985.841654
+e318074985.951159
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonWriter.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonWriter.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@69"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonWriter.m318074985#318074985#0(0"0(0#0#61"/Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonWriter.m8603288736#2107"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/JSON/SBJsonWriter.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SBJsonWriter.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SearchChartCtrl.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchChartCtrl.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319100021.848892
+e319100022.029429
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SearchChartCtrl.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchChartCtrl.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchChartCtrl.m319100021#319100022#0(0"0(0#0#65"/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchChartCtrl.m8622401600#2114"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchChartCtrl.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SearchChartCtrl.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SearchCtrl.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/../SearchCtrl.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318074987.003869
+e318074987.122834
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SearchCtrl.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/../SearchCtrl.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@71"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/../SearchCtrl.m318074987#318074987#0(0"0(0#0#63"/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/../SearchCtrl.m8644503264#2107"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/../SearchCtrl.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SearchCtrl.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SearchListCtrl.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchListCtrl.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s319083191.670530
+e319083191.899382
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SearchListCtrl.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchListCtrl.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchListCtrl.m319083191#319083191#0(0"0(0#0#64"/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchListCtrl.m8619490176#2112"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchListCtrl.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SearchListCtrl.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SearchListCtrlCell.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchListCtrlCell.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318074986.229107
+e318074986.326033
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SearchListCtrlCell.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchListCtrlCell.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@76"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchListCtrlCell.m318074986#318074986#0(0"0(0#0#68"/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchListCtrlCell.m8650659744#2120"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchListCtrlCell.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SearchListCtrlCell.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SearchedLocationAnnotation.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchedLocationAnnotation.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318074986.150446
+e318074986.228561
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SearchedLocationAnnotation.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchedLocationAnnotation.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchedLocationAnnotation.m318074986#318074986#0(0"0(0#0#76"/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchedLocationAnnotation.m8627480608#2136"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchedLocationAnnotation.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/SearchedLocationAnnotation.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ShortedListCtrl.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ShortedListCtrl.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318074986.326131
+e318074986.388801
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ShortedListCtrl.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ShortedListCtrl.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@73"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ShortedListCtrl.m318074986#318074986#0(0"0(0#0#65"/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ShortedListCtrl.m8638871744#2114"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/ShortedListCtrl.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/ShortedListCtrl.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/UITabBarCtrlRadr.o" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/UITabBarCtrlRadr.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318074986.388900
+e318074986.451203
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/UITabBarCtrlRadr.o
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/UITabBarCtrlRadr.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@74"Compile /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/UITabBarCtrlRadr.m318074986#318074986#0(0"0(0#0#66"/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/UITabBarCtrlRadr.m8623188608#2116"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/UITabBarCtrlRadr.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/UITabBarCtrlRadr.o"0#
+
+CCompileC "build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/main.o" /Users/imac/Desktop/zd/gl/RadrApp/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
+s318074985.389378
+e318074985.446536
+r1
+xCompileC
+xbuild/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/main.o
+x/Users/imac/Desktop/zd/gl/RadrApp/main.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@48"Compile /Users/imac/Desktop/zd/gl/RadrApp/main.m318074985#318074985#0(0"0(0#0#40"/Users/imac/Desktop/zd/gl/RadrApp/main.m8654088896#2078"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -include /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch -c /Users/imac/Desktop/zd/gl/RadrApp/main.m -o "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/main.o"0#
+
+CCompileXIB /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchChartCtrl.xib
+s319020155.790596
+e319020156.224923
+r1
+xCompileXIB
+x/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchChartCtrl.xib
+lSLF07#2@44"CompileXIB Classes/Ctrls/SearchChartCtrl.xib319020155#319020156#0(0"0(0#0#67"/Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchChartCtrl.xib8658788512#591"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/SearchChartCtrl.nib" /Users/imac/Desktop/zd/gl/RadrApp/Classes/Ctrls/SearchChartCtrl.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/imac/Desktop/zd/gl/RadrApp/FloatWigit.xib
+s318074984.926390
+e318074985.389158
+r1
+xCompileXIB
+x/Users/imac/Desktop/zd/gl/RadrApp/FloatWigit.xib
+lSLF07#2@25"CompileXIB FloatWigit.xib318074984#318074985#0(0"0(0#0#48"/Users/imac/Desktop/zd/gl/RadrApp/FloatWigit.xib8630345632#567"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/FloatWigit.nib" /Users/imac/Desktop/zd/gl/RadrApp/FloatWigit.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/imac/Desktop/zd/gl/RadrApp/MainWindow.xib
+s318074984.419592
+e318074984.926098
+r1
+xCompileXIB
+x/Users/imac/Desktop/zd/gl/RadrApp/MainWindow.xib
+lSLF07#2@25"CompileXIB MainWindow.xib318074984#318074984#0(0"0(0#0#48"/Users/imac/Desktop/zd/gl/RadrApp/MainWindow.xib8646497024#567"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/MainWindow.nib" /Users/imac/Desktop/zd/gl/RadrApp/MainWindow.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/imac/Desktop/zd/gl/RadrApp/aboutMain.xib
+s318074983.203481
+e318074983.622568
+r1
+xCompileXIB
+x/Users/imac/Desktop/zd/gl/RadrApp/aboutMain.xib
+lSLF07#2@24"CompileXIB aboutMain.xib318074983#318074983#0(0"0(0#0#47"/Users/imac/Desktop/zd/gl/RadrApp/aboutMain.xib8637669600#565"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/aboutMain.nib" /Users/imac/Desktop/zd/gl/RadrApp/aboutMain.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/imac/Desktop/zd/gl/RadrApp/buyProMain.xib
+s318074983.206215
+e318074983.632371
+r1
+xCompileXIB
+x/Users/imac/Desktop/zd/gl/RadrApp/buyProMain.xib
+lSLF07#2@25"CompileXIB buyProMain.xib318074983#318074983#0(0"0(0#0#48"/Users/imac/Desktop/zd/gl/RadrApp/buyProMain.xib8654351392#567"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/buyProMain.nib" /Users/imac/Desktop/zd/gl/RadrApp/buyProMain.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/imac/Desktop/zd/gl/RadrApp/changeCountryMain.xib
+s318074983.622657
+e318074984.025077
+r1
+xCompileXIB
+x/Users/imac/Desktop/zd/gl/RadrApp/changeCountryMain.xib
+lSLF07#2@32"CompileXIB changeCountryMain.xib318074983#318074984#0(0"0(0#0#55"/Users/imac/Desktop/zd/gl/RadrApp/changeCountryMain.xib8650664288#581"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/changeCountryMain.nib" /Users/imac/Desktop/zd/gl/RadrApp/changeCountryMain.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/imac/Desktop/zd/gl/RadrApp/changeLanguageMain.xib
+s318074983.632453
+e318074984.026081
+r1
+xCompileXIB
+x/Users/imac/Desktop/zd/gl/RadrApp/changeLanguageMain.xib
+lSLF07#2@33"CompileXIB changeLanguageMain.xib318074983#318074984#0(0"0(0#0#56"/Users/imac/Desktop/zd/gl/RadrApp/changeLanguageMain.xib8649560128#583"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/changeLanguageMain.nib" /Users/imac/Desktop/zd/gl/RadrApp/changeLanguageMain.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/imac/Desktop/zd/gl/RadrApp/recentMain.xib
+s318074984.025159
+e318074984.418799
+r1
+xCompileXIB
+x/Users/imac/Desktop/zd/gl/RadrApp/recentMain.xib
+lSLF07#2@25"CompileXIB recentMain.xib318074984#318074984#0(0"0(0#0#48"/Users/imac/Desktop/zd/gl/RadrApp/recentMain.xib8644537056#567"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/recentMain.nib" /Users/imac/Desktop/zd/gl/RadrApp/recentMain.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/imac/Desktop/zd/gl/RadrApp/searchMain.xib
+s318074984.418991
+e318074984.947888
+r1
+xCompileXIB
+x/Users/imac/Desktop/zd/gl/RadrApp/searchMain.xib
+lSLF07#2@25"CompileXIB searchMain.xib318074984#318074984#0(0"0(0#0#48"/Users/imac/Desktop/zd/gl/RadrApp/searchMain.xib8648119872#567"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/searchMain.nib" /Users/imac/Desktop/zd/gl/RadrApp/searchMain.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCompileXIB /Users/imac/Desktop/zd/gl/RadrApp/shortedListMain.xib
+s318074984.026132
+e318074984.418924
+r1
+xCompileXIB
+x/Users/imac/Desktop/zd/gl/RadrApp/shortedListMain.xib
+lSLF07#2@30"CompileXIB shortedListMain.xib318074984#318074984#0(0"0(0#0#53"/Users/imac/Desktop/zd/gl/RadrApp/shortedListMain.xib8642710464#577"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.0    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/shortedListMain.nib" /Users/imac/Desktop/zd/gl/RadrApp/shortedListMain.xib --sdk /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk0#
+
+CCopyPlistFile "/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/RadrApp-Info.plist" RadrApp-Info.plist
+s318072810.345666
+e318072810.656778
+r1
+xCopyPlistFile
+x/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/RadrApp-Info.plist
+xRadrApp-Info.plist
+lSLF07#2@23"Copy RadrApp-Info.plist318072810#318072810#0(0"0(0#0#52"/Users/imac/Desktop/zd/gl/RadrApp/RadrApp-Info.plist8607980864#395"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 RadrApp-Info.plist --outdir "/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app"0#
+
+CCopyPlistFile "/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/config.plist" config.plist
+s318072810.347882
+e318072810.656613
+r1
+xCopyPlistFile
+x/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/config.plist
+xconfig.plist
+lSLF07#2@17"Copy config.plist318072810#318072810#0(0"0(0#0#46"/Users/imac/Desktop/zd/gl/RadrApp/config.plist8648138400#389"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copyplist --convert binary1 config.plist --outdir "/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app"0#
+
+CCopyPlistFile /Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp.app/RadrApp-Info.plist RadrApp-Info.plist
+r0
+
+CCopyPlistFile /Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp.app/config.plist config.plist
+r0
+
+CGenerateDSYMFile "/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app.dSYM" "/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/RadrApp simulator"
+s319100022.283107
+e319100022.436749
+r1
+xGenerateDSYMFile
+x/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app.dSYM
+x/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/RadrApp simulator
+lSLF07#2@143"GenerateDSYMFile "build/Debug-iphonesimulator/RadrApp simulator.app.dSYM" "build/Debug-iphonesimulator/RadrApp simulator.app/RadrApp simulator"319100022#319100022#0(0"0(0#0#101"/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/RadrApp simulator8623808384#402"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil "/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/RadrApp simulator" -o "/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app.dSYM"0#
+
+CGenerateDSYMFile /Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp.app.dSYM /Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp.app/RadrApp
+r0
+
+CLd "/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/RadrApp simulator" normal i386
+s319100022.029515
+e319100022.282996
+r1
+xLd
+x/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/RadrApp simulator
+xnormal
+xi386
+lSLF07#2@106"Link /Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/RadrApp simulator319100022#319100022#0(0"0(0#0#0"8623913760#1098"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv MACOSX_DEPLOYMENT_TARGET 10.6    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -L/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -L/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -filelist "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/Objects-normal/i386/RadrApp simulator.LinkFileList" -mmacosx-version-min=10.6 -ObjC -all_load -Xlinker -objc_abi_version -Xlinker 2 -lCorePlot-CocoaTouch -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreLocation -framework MapKit -framework QuartzCore -o "/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/RadrApp simulator"0#
+
+CLd /Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp.app/RadrApp normal i386
+r0
+
+CProcessInfoPlistFile "/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/Info.plist" RadrApp-Info.plist
+s318074983.189406
+e318074983.203400
+r1
+xProcessInfoPlistFile
+x/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/Info.plist
+xRadrApp-Info.plist
+lSLF07#2@26"Process RadrApp-Info.plist318074983#318074983#0(0"0(0#0#52"/Users/imac/Desktop/zd/gl/RadrApp/RadrApp-Info.plist8641949344#488"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility RadrApp-Info.plist -genpkginfo "/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app/Info.plist"0#
+
+CProcessInfoPlistFile /Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp.app/Info.plist RadrApp-Info.plist
+r0
+
+CProcessPCH /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-awdetyqjuzmgaybqfhbfweymscyo/RadrApp_Prefix.pch.gch RadrApp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s318073926.988989
+e318073927.722207
+r1
+xProcessPCH
+x/var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-awdetyqjuzmgaybqfhbfweymscyo/RadrApp_Prefix.pch.gch
+xRadrApp_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile RadrApp_Prefix.pch318073926#318073927#0(0"0(0#0#52"/Users/imac/Desktop/zd/gl/RadrApp/RadrApp_Prefix.pch8603120992#1963"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -c /Users/imac/Desktop/zd/gl/RadrApp/RadrApp_Prefix.pch -o /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-awdetyqjuzmgaybqfhbfweymscyo/RadrApp_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-aykdnvhofazwctccuyabwkvbuvxj/RadrApp_Prefix.pch.gch RadrApp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-fgjphevnruekzqhdqvlzrmhidaxl/RadrApp_Prefix.pch.gch RadrApp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s318072710.672637
+e318072711.423909
+r0
+xProcessPCH
+x/var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-fgjphevnruekzqhdqvlzrmhidaxl/RadrApp_Prefix.pch.gch
+xRadrApp_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/imac/Desktop/zd/gl/RadrApp/RadrApp_Prefix.pch:8:36: error: CorePlot-CocoaTouch.h: No such file or directory
+lSLF07#2@29"Precompile RadrApp_Prefix.pch318072710#318072711#0(115"/Users/imac/Desktop/zd/gl/RadrApp/RadrApp_Prefix.pch:8:36: error: CorePlot-CocoaTouch.h: No such file or directory1(4@48"CorePlot-CocoaTouch.h: No such file or directory318072710#0#115#0(6@52"/Users/imac/Desktop/zd/gl/RadrApp/RadrApp_Prefix.pch317885788#8#0#8#0#28"*: No such file or directory0(0#0#52"/Users/imac/Desktop/zd/gl/RadrApp/RadrApp_Prefix.pch8629747424#1938"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../../build/Debug-iphonesimulator "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -c /Users/imac/Desktop/zd/gl/RadrApp/RadrApp_Prefix.pch -o /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-fgjphevnruekzqhdqvlzrmhidaxl/RadrApp_Prefix.pch.gch1#
+
+CProcessPCH /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-gqesycnaxbdbpdcajjujcpheuang/RadrApp_Prefix.pch.gch RadrApp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s318074962.590478
+e318074963.328344
+r1
+xProcessPCH
+x/var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-gqesycnaxbdbpdcajjujcpheuang/RadrApp_Prefix.pch.gch
+xRadrApp_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile RadrApp_Prefix.pch318074962#318074963#0(0"0(0#0#52"/Users/imac/Desktop/zd/gl/RadrApp/RadrApp_Prefix.pch8630914656#1963"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30103 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -c /Users/imac/Desktop/zd/gl/RadrApp/RadrApp_Prefix.pch -o /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-gqesycnaxbdbpdcajjujcpheuang/RadrApp_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch.gch RadrApp_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
+s318074377.202584
+e318074377.994076
+r1
+xProcessPCH
+x/var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch.gch
+xRadrApp_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile RadrApp_Prefix.pch318074377#318074377#0(0"0(0#0#52"/Users/imac/Desktop/zd/gl/RadrApp/RadrApp_Prefix.pch8623284224#1963"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator4.2.sdk -fexceptions -fvisibility=hidden -mmacosx-version-min=10.6 -gdwarf-2 -fobjc-abi-version=2 -fobjc-legacy-dispatch -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-generated-files.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-own-target-headers.hmap" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-all-target-headers.hmap" -iquote "/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/RadrApp simulator-project-headers.hmap" -F/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator -I/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/include -I/Users/imac/Desktop/zd/gl/RadrApp/../core-plot/build/Debug-iphonesimulator/usr/local/include "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources/i386" "-I/Users/imac/Desktop/zd/gl/RadrApp/build/RadrApp.build/Debug-iphonesimulator/RadrApp simulator.build/DerivedSources" -c /Users/imac/Desktop/zd/gl/RadrApp/RadrApp_Prefix.pch -o /var/folders/kI/kIAT7cfoHZS+AYtIuTsVDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/RadrApp_Prefix-hcsogijkuwyttsbaqkxzztjjufxx/RadrApp_Prefix.pch.gch0#
+
+CTouch "/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app"
+s319100022.436828
+e319100022.445177
+r1
+xTouch
+x/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app
+lSLF07#2@89"Touch /Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app319100022#319100022#0(0"0(0#0#0"8623564384#280"    cd /Users/imac/Desktop/zd/gl/RadrApp    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c "/Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp simulator.app"0#
+
+CTouch /Users/imac/Desktop/zd/gl/RadrApp/build/Debug-iphonesimulator/RadrApp.app
+r0
+

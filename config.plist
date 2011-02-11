@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>default</key>
+	<string>UK</string>
+	<key>servers</key>
+	<dict>
+		<key>UK</key>
+		<string>http://api.nestoria.co.uk/api?</string>
+		<key>ES</key>
+		<string>http://api.nestoria.es/api?</string>
+		<key>IN</key>
+		<string>http://api.nestoria.in/api?</string>
+		<key>FR</key>
+		<string>http://api.nestoria.fr/api?</string>
+		<key>AU</key>
+		<string>http://api.nestoria.au/api?</string>
+	</dict>
+</dict>
+</plist>
